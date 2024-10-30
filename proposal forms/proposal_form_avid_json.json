@@ -1,0 +1,77 @@
+{
+    "company_name": "AVID PROPERTY LIMITED",
+    "kra_pin": "P051826959C",
+    "postal_address": "PO BOX 80000-00620",
+    "email_addresses": [
+        "INFO@AVID.KE",
+        "AVIDPROPERTYLIMITED@GMAIL.COM"
+    ],
+    "location": "UPPERHILL, UPPERHILL ROAD-EASTWOOD COURT UNIT NO 1 (OPPOSITE CITI BANK)",
+    "business_nature": "PROPERTY VALUATION & ESTATE AGENCY",
+    "contact_number": "0714304876",
+    "insurance_period": {
+        "from": "13/10/2024",
+        "to": "12/10/2025"
+    },
+    "partners": [
+        {
+            "name": "LEE MWANGI KIRUKA",
+            "qualification": "REGISTERED VALUER & ESTATE. BACHELOR OF REAL ESTATE (UON)",
+            "when_qualified": 2014,
+            "experience_years": 6,
+            "previous_firm": "ZENITH M VALUERS LTD"
+        },
+        {
+            "name": "ELVIS WARARI NGUGI",
+            "qualification": "LICENCED ESTATE AGENT. BACHELOR OF REAL ESTATE (UON)",
+            "when_qualified": 2018,
+            "experience_years": 6,
+            "previous_firm": "ZENITH M VALUERS LTD"
+        },
+        {
+            "name": "PETER KAMAU MIGWI",
+            "qualification": "LICENCED ESTATE AGENT. CPAK, BACHELOR OF FINANCE",
+            "when_qualified": 2017,
+            "experience_years": 6,
+            "previous_firm": "ZENITH M VALUERS LTD"
+        }
+    ],
+    "total_partners": 3,
+    "professionally_qualified_staff": 4,
+    "support_staff": 3,
+    "indemnity_required": {
+        "per_event": "KES 60,000,000.00",
+        "aggregate": ""
+    },
+    "gross_income_last_12_months": "Kshs 17,503,405",
+    "expected_income_next_12_months": "Ksh 30,000,000",
+    "claims_history": {
+        "made_claims": "No",
+        "circumstances_giving_rise": "No"
+    },
+    "extensions_cover": {
+        "note": "Do you require cover for the undernoted extensions? (maximum limit is 10% of your proposed limit of indemnity and it will attract an additional premium)",
+        "libel_slander": "Yes",
+        "dishonesty_employees": "Yes",
+        "loss_documents": "Yes"
+    },
+    "general_insurance_history": {
+        "currently_insured": "Yes",
+        "insurance_details": {
+            "insurance_company": "Geminia Insurance Company",
+            "expiry_date": "12/10/2024"
+        },
+        "insurer_responses": {
+            "declined_insurance": "No",
+            "required_special_terms": "No",
+            "cancelled_or_refused_renewal": "No",
+            "increased_premium_on_renewal": "No"
+        }
+    },
+    "declaration": {
+        "name": "PETER KAMAU MIGWI",
+        "designation": "DIRECTOR",
+        "date": "05/09/2024",
+        "signature": ""
+    }
+}
