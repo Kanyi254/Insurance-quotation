@@ -1,0 +1,31 @@
+version: "3.1"
+
+actions:
+  - action_validate_proposal_form
+  - action_validate_audited_accounts
+  - action_validate_rating_guide
+  - action_upload_proposal_form
+  - action_upload_financial_statement
+  - action_upload_rating_guide
+  - action_extract_text
+
+slots:
+  proposal_form_slot:
+    type: text
+    influence_conversation: false
+  financial_statements_slot:
+    type: text
+    influence_conversation: false
+  rating_guide_slot:
+    type: text
+    influence_conversation: false
+  image_slot:
+    type: text
+    influence_conversation: false
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+
+

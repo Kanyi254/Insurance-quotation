@@ -1,0 +1,142 @@
+﻿header:
+  company: FIRST ASSURANCE COMPANY LTD
+  head_office:
+    address: >-
+      First Assurance House, Clyde Gardens, Gitanga Road, Lavington, P O Box
+      30064-00100, Nairobi, Kenya
+    tel: 254-020-567374/5777 37
+    cell: 0722-4441 17/0733-605480
+    fax: 567433/572204
+    email: hoinfo@firstassurance.co.ke
+    website: www.firstassurance.co.ke
+  mombasa_branch:
+    address: >-
+      First Assurance House, Nyali Road, Off Mombasa-Malindi Road, P O Box
+      43559, Mombasa, Kenya
+    tel: 254-041-476494/476495
+    fax: 254-041-476495
+    email: msainfo@firstassurance.co.ke
+pages:
+  - page_number: 1
+    title: PROFESSIONAL INDEMNITY PROPOSAL FORM
+    subtitle: MISCELLANEOUS ACTIVITIES
+    sections:
+      - number: 1
+        question: >-
+          Full title of Proposer and subsidiary Companies to be included in the
+          insurance
+        answer: FEKAN Hower LLP
+      - number: 2
+        question: >-
+          Please give a detailed description of the activities of the business
+          to be covered.
+        answer: 'AUDIT, TAX AND ADVISORY SERVICES (CERTIFIED PUBLIC ACCOUNTANTS)'
+      - number: 3
+        question: >-
+          Is any radical change in the type of activities anticipated in the
+          next 12 months?
+        answer: 'No'
+        details: N/A
+      - number: 4
+        question: >-
+          When was the business established and did the present business take
+          over and/or purchase any other business?
+        answer: 4th AUGUST 2020
+      - number: 5
+        sub_questions:
+          - question: What was the Proposer's total turnover over the past three years?
+            details:
+              - year: 2021
+                amount: 14M
+              - year: 2022
+                amount: 52M
+              - year: 2023
+                amount: 74M
+              - forthcoming_12_months: 100M
+    footer: Page 1 of 5 Confidential fa/pdotet/1003
+  - page_number: 2
+    sections:
+      - number: 5
+        sub_questions:
+          - question: >-
+              If business comprises more than one activity or discipline,
+              indicate percentage of turnover applicable to each.
+            details:
+              '2023':
+                audit_assurance: 23%
+                tax_services: 46%
+                advisory_services: 31%
+          - question: >-
+              Please define 'turnover' (i.e., does it comprise fees, commissions
+              or any other?)
+            answer: FEES & DISBURSEMENTS
+      - number: 6
+        question: Please give details of all Directors/Partners and Key Personnel
+        table:
+          - name: NICHOLAS KATHIARI
+            position: MANAGING PARTNER
+            qualification: 'MBA, BCOM, CPA(K), CPS'
+          - name: FELIX KARIUKI
+            position: PARTNER
+            qualification: 'MBA, BCOM, CPA(K), CPS'
+          - name: PATRICK MWIRIGI
+            position: PARTNER
+            qualification: 'MBA, BCOM, CPA(K), PDG-CORP GOVERNANCE'
+      - number: 7
+        question: >-
+          Number of staff not included in (6) above employed by the Proposer in
+          the past 12 months
+        answer: '7'
+    footer: Page 2 of 5 Confidential fa/pdotef/1003
+  - page_number: 3
+    sections:
+      - number: 8
+        question: Do you engage the services of independent or specialist consultants?
+        answer: 'Yes'
+        details: THEY SHOULD BE COVERED UNDER THIS COVER
+      - number: 9
+        question: >-
+          Please give details of any claims settled or outstanding or compromise
+          settlements arising from any breach of duty whether insured or not
+        answer: NONE
+      - number: 10
+        question: >-
+          Is the Proposer aware of any circumstances, which may give rise to a
+          claim?
+        answer: 'No'
+        details: N/A
+    footer: Page 3 of 5 Confidential fa/pdotef/1003
+  - page_number: 4
+    sections:
+      - number: 11
+        sub_questions:
+          - question: Have you previously been insured?
+            answer: 'Yes'
+            details: APA INSURANCE
+          - question: Has any proposal for insurance ever been declined?
+            answer: 'No'
+          - question: Has any insurer ever required increased premium or terms?
+            answer: 'No'
+          - question: Has any insurer ever terminated or refused to renew any insurance?
+            answer: 'No'
+    footer: Page 4 of 5 Confidential fa/pdotef/1003
+  - page_number: 5
+    sections:
+      - number: 12
+        question: Indemnity and Excess required
+        indemnity: 'KSH. 100,000,000'
+        excess: 'KSH. 200,000'
+      - number: 13
+        question: Do you require cover for certain expenses and liabilities?
+        cover_options:
+          defamation: 'Yes'
+          loss_of_documents: 'Yes'
+          retroactive_errors_omissions: 'Yes'
+      - declaration:
+          text: >-
+            I/We declare that the statements and particulars on this Proposal
+            are true and that I/We have not misstated or suppressed any material
+            facts.
+          date: 11/7/2024
+          signature: PATRICK MWIRIGI
+    footer: Page 5 of 5 Confidential fa/pdotef/1003
