@@ -1,0 +1,22 @@
+version: "3.1"
+
+rules:
+  - rule: Validate proposal form
+    steps:
+      - intent: upload_proposal_form
+      - action: action_validate_proposal_form
+
+  - rule: Validate audited accounts
+    steps:
+      - intent: upload_audited_accounts
+      - action: action_validate_audited_accounts
+
+  - rule: Validate rating guide
+    steps:
+      - intent: upload_rating_guide
+      - action: action_validate_rating_guide
+
+- rule: Upload and extract text from image
+    steps:
+      - intent: upload_image
+      - action: action_extract_text
