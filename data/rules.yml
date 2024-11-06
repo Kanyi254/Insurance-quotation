@@ -16,7 +16,7 @@ rules:
       - intent: upload_rating_guide
       - action: action_validate_rating_guide
 
-- rule: Upload and extract text from image
+  - rule: Upload and extract text from image
     steps:
       - intent: upload_image
       - action: action_extract_text

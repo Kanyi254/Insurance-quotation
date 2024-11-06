@@ -10,7 +10,7 @@ stories:
       - intent: upload_rating_guide
       - action: action_validate_rating_guide
     
-  - story: User uploads an document for text extraction
+  - story: User uploads a document for text extraction
     steps:
       - intent: upload_image
       - action: action_extract_text
