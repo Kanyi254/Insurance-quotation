@@ -1,20 +1,33 @@
 version: "3.1"
 intents:
-  - greet
   - upload_proposal_form
-  - upload_financial_statement
+  - upload_audited_accounts
   - upload_rating_guide
-  - validate_proposal_form
-  - validate_audited_accounts
-  - validate_rating_guide
-  - extract_text
-  - goodbye
+  - upload_image
+  - provide_company_info
+  - provide_business_activity
+  - provide_change_in_activities
+  - provide_establishment_details
+  - provide_turnover
+  - provide_activity_turnover_percentage
+  - define_turnover
+  - provide_directors_details
+  - provide_additional_staff
+  - confirm_independent_consultants
+  - provide_claims_history
+  - confirm_awareness_of_claim_circumstances
+  - provide_previous_insurance_details
+  - respond_declined_proposal
+  - confirm_increased_premium
+  - confirm_policy_termination
+  - provide_indemnity_excess_requirements
+  - request_cover_for_specific_expenses
+  - provide_declaration
 
 entities:
-  - image
-  - proposal_form
-  - financial_statement
-  - rating_guide
+  - company
+  - location
+  - document_type
 
 slots:
   proposal_form_slot:
