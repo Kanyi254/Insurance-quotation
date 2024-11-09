@@ -1,0 +1,224 @@
+version: "3.1"
+
+intents:
+  - request_insurance  
+  - ask_business_profession
+  - ask_name_reinsured
+  - ask_name_broker
+  - ask_name_insured
+  - ask_number_partners_principal
+  - ask_number_qualified_assistants
+  - ask_number_unqualified_assistants
+  - ask_number_other_staff
+  - ask_indemnity_amount 
+  - ask_coverage_extensions
+  - ask_coverage_loss_of_documents
+  - ask_coverage_dishonest_employees
+  - ask_coverage_incoming_outgoing_partners
+  - ask_coverage_breach_of_authority
+  - ask_coverage_libel_and_slander
+  - goodbye
+  - bot_challenge  
+  
+
+
+entities:
+  - business_profession
+  - name_reinsured
+  - name_broker
+  - name_insured
+  - number_partners_principal
+  - number_qualified_assistants
+  - number_unqualified_assistants
+  - number_other_staff
+  - indemnity_amount
+  - extensions
+  - loss_of_documents
+  - dishonest_employees
+  - incoming_outgoing_partners
+  - breach_of_authority
+  - libel_and_slander
+
+
+slots:
+  business_profession:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: business_profession
+  name_reinsured:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: name_reinsured
+  name_broker:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: name_broker
+  name_insured:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: name_insured
+  number_partners_principal:
+    type: float
+    mappings:
+      - type: from_entity
+        entity: number_partners_principal
+  number_qualified_assistants:
+    type: float
+    mappings:
+      - type: from_entity
+        entity: number_qualified_assistants
+  number_unqualified_assistants:
+    type: float
+    mappings:
+      - type: from_entity
+        entity: number_unqualified_assistants
+  number_other_staff:
+    type: float
+    mappings:
+      - type: from_entity
+        entity: number_other_staff
+  indemnity_amount:
+    type: float
+    mappings:
+      - type: from_entity
+        entity: indemnity_amount
+  extensions:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: extensions
+  loss_of_documents:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: loss_of_documents
+  dishonest_employees:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: dishonest_employees
+  incoming_outgoing_partners:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: incoming_outgoing_partners
+  breach_of_authority:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: breach_of_authority
+  libel_and_slander:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: libel_and_slander
+
+
+forms:
+  insurance_form:
+    required_slots:
+      - business_profession
+      - name_reinsured
+      - name_broker
+      - name_insured
+      - number_partners_principal
+      - number_qualified_assistants
+      - number_unqualified_assistants
+      - number_other_staff
+      - indemnity_amount
+      - extensions
+      - loss_of_documents
+      - dishonest_employees
+      - incoming_outgoing_partners
+      - breach_of_authority
+      - libel_and_slander
+
+responses:
+  # utter_greet:
+  # - text: "Hello! How can I assist you today?"
+
+  # utter_cheer_up:
+  # - text: "Here’s a little something to lift your spirits:"
+  #   image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  # utter_did_that_help:
+  # - text: "Did that help? Let me know if you need more information."
+
+  # utter_happy:
+  # - text: "Great to hear you're doing well! Let’s keep going."
+
+  utter_ask_business_profession:
+  - text: "Could you please tell me your business profession?"
+
+  utter_ask_name_reinsured:
+  - text: "What is the name of the reinsured party?"
+
+  utter_ask_name_broker:
+  - text: "What is the name of the broker handling this?"
+
+  utter_ask_name_insured:
+  - text: "What is the name of the insured party?"
+
+  utter_ask_number_partners_principal:
+  - text: "How many partners or principals are involved in the business?"
+
+  utter_ask_number_qualified_assistants:
+  - text: "How many qualified assistants are there?"
+
+  utter_ask_number_unqualified_assistants:
+  - text: "How many unqualified assistants are there?"
+
+  utter_ask_number_other_staff:
+  - text: "How many other staff members are there?"
+
+  utter_ask_indemnity_amount:
+  - text: "What is the indemnity amount you would like to claim?"
+
+  utter_ask_coverage_extensions:
+  - text: "Do you want coverage for extensions? (Type 'yes' or 'no')"
+
+  utter_ask_coverage_loss_of_documents:
+  - text: "Do you want coverage for loss of documents? (Type 'yes' or 'no')"
+
+  utter_ask_coverage_dishonest_employees:
+  - text: "Do you want coverage for dishonest employees? (Type 'yes' or 'no')"
+
+  utter_ask_coverage_incoming_outgoing_partners:
+  - text: "Do you want coverage for incoming and outgoing partners? (Type 'yes' or 'no')"
+
+  utter_ask_coverage_breach_of_authority:
+  - text: "Do you want coverage for breach of authority? (Type 'yes' or 'no')"
+
+  utter_ask_coverage_libel_and_slander:
+  - text: "Do you want coverage for libel and slander? (Type 'yes' or 'no')"
+
+  utter_confirm_form:
+  - text: "Thank you for filling out the form! Please wait as I generate a quote for you."
+
+  utter_display_quote:
+  - text: "Here is your quote."
+
+  utter_goodbye:
+  - text: "Goodbye! Have a wonderful day!"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa, here to help you with your insurance queries."
+
+  # utter_affirm:
+  #   - text: "Great! Let's continue."
+  
+  # utter_deny:
+  #   - text: "Okay, let me know if you need any help later."
+
+
+actions:
+  - action_generate_quote
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

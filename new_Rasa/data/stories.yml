@@ -1,0 +1,373 @@
+version: "3.1"
+
+stories:
+
+# - story: User greets the bot
+#   steps:
+#     - intent: greet
+#     - action: utter_greet
+
+# - story: User asks if they’re talking to a bot or human
+#   steps:
+#     - intent: bot_challenge
+#     - action: utter_iamabot
+
+
+- story: Insurance request with all coverage extensions confirmed
+  steps:
+    - intent: request_insurance
+    - action: insurance_form
+    - active_loop: insurance_form
+    - intent: ask_business_profession
+    - action: utter_ask_business_profession
+    - slot_was_set:
+        - business_profession: business_profession
+    - intent: ask_name_reinsured        
+    - action: utter_ask_name_reinsured        
+    - slot_was_set:
+        - name_reinsured: name_reinsured
+    - intent: ask_name_broker        
+    - action: utter_ask_name_broker  
+    - slot_was_set:
+        - name_broker: name_broker
+    - intent: ask_name_insured        
+    - action: utter_ask_name_insured        
+    - slot_was_set:
+        - name_insured: name_insured
+    - intent: ask_number_partners_principal        
+    - action: utter_ask_number_partners_principal        
+    - slot_was_set:
+        - number_partners_principal: number_partners_principal
+    - intent: ask_number_qualified_assistants        
+    - action: utter_ask_number_qualified_assistants        
+    - slot_was_set:
+        - number_qualified_assistants: number_qualified_assistants
+    - intent: ask_number_unqualified_assistants        
+    - action: utter_ask_number_unqualified_assistants        
+    - slot_was_set:
+        - number_unqualified_assistants: number_unqualified_assistants
+    - intent: ask_number_other_staff        
+    - action: utter_ask_number_other_staff        
+    - slot_was_set:
+        - number_other_staff: number_other_staff
+    - intent: ask_indemnity_amount        
+    - action: utter_ask_indemnity_amount        
+    - slot_was_set:
+        - indemnity_amount: indemnity_amount
+    - intent: ask_coverage_extensions        
+    - action: utter_ask_coverage_extensions        
+    - slot_was_set:
+        - extensions: extensions
+    - intent: ask_coverage_loss_of_documents        
+    - action: utter_ask_coverage_loss_of_documents        
+    - slot_was_set:
+        - loss_of_documents: loss_of_documents
+    - intent: ask_coverage_dishonest_employees        
+    - action: utter_ask_coverage_dishonest_employees        
+    - slot_was_set:
+        - dishonest_employees: dishonest_employees
+    - intent: ask_coverage_incoming_outgoing_partners        
+    - action: utter_ask_coverage_incoming_outgoing_partners        
+    - slot_was_set:
+        - incoming_outgoing_partners: incoming_outgoing_partners
+    - intent: ask_coverage_breach_of_authority        
+    - action: utter_ask_coverage_breach_of_authority        
+    - slot_was_set:
+        - breach_of_authority: breach_of_authority
+    - intent: ask_coverage_libel_and_slander        
+    - action: utter_ask_coverage_libel_and_slander        
+    - slot_was_set:
+        - libel_and_slander: libel_and_slander
+    - active_loop: null
+    - slot_was_set:
+        - requested_slot: null    
+    - action: utter_confirm_form    
+    - action: utter_display_quote    
+    - action: action_generate_quote
+
+- story: Insurance request with all coverage extensions denied
+  steps:
+    - intent: request_insurance
+    - action: insurance_form
+    - active_loop: insurance_form
+    - intent: ask_business_profession    
+    - action: utter_ask_business_profession
+    - slot_was_set:
+        - business_profession: business_profession
+    - intent: ask_name_reinsured        
+    - action: utter_ask_name_reinsured        
+    - slot_was_set:
+        - name_reinsured: name_reinsured
+    - intent: ask_name_broker        
+    - action: utter_ask_name_broker  
+    - slot_was_set:
+        - name_broker: name_broker
+    - intent: ask_name_insured        
+    - action: utter_ask_name_insured        
+    - slot_was_set:
+        - name_insured: name_insured
+    - intent: ask_number_partners_principal        
+    - action: utter_ask_number_partners_principal        
+    - slot_was_set:
+        - number_partners_principal: number_partners_principal
+    - intent: ask_number_qualified_assistants
+    - action: utter_ask_number_qualified_assistants        
+    - slot_was_set: 
+        - number_qualified_assistants: number_qualified_assistants
+    - intent: ask_number_unqualified_assistants
+    - action: utter_ask_number_unqualified_assistants        
+    - slot_was_set:
+        - number_unqualified_assistants: number_unqualified_assistants
+    - intent: ask_number_other_staff
+    - action: utter_ask_number_other_staff        
+    - slot_was_set:
+        - number_other_staff: number_other_staff
+    - intent: ask_indemnity_amount
+    - action: utter_ask_indemnity_amount        
+    - slot_was_set:
+        - indemnity_amount: indemnity_amount
+    - intent: ask_coverage_extensions
+    - action: utter_ask_coverage_extensions        
+    - slot_was_set:
+        - extensions: extensions
+    - intent: ask_coverage_loss_of_documents
+    - action: utter_ask_coverage_loss_of_documents        
+    - slot_was_set:
+        - loss_of_documents: loss_of_documents
+    - intent: ask_coverage_dishonest_employees
+    - action: utter_ask_coverage_dishonest_employees        
+    - slot_was_set:
+        - dishonest_employees: dishonest_employees
+    - intent: ask_coverage_incoming_outgoing_partners
+    - action: utter_ask_coverage_incoming_outgoing_partners        
+    - slot_was_set:
+        - incoming_outgoing_partners: incoming_outgoing_partners
+    - intent: ask_coverage_breach_of_authority
+    - action: utter_ask_coverage_breach_of_authority        
+    - slot_was_set:
+        - breach_of_authority: breach_of_authority
+    - intent: ask_coverage_libel_and_slander
+    - action: utter_ask_coverage_libel_and_slander        
+    - slot_was_set:
+        - libel_and_slander: libel_and_slander
+    - active_loop: null
+    - slot_was_set:
+        - requested_slot: null    
+    - action: utter_confirm_form    
+    - action: utter_display_quote
+    - action: action_generate_quote
+
+
+
+# - story: Activate form
+#   steps:
+#     - intent: request_insurance
+#     - action: insurance_form
+#     - active_loop: insurance_form
+
+# - story: User provides business profession
+#   steps:
+#     - intent: ask_business_profession
+#     - action: utter_ask_business_profession
+#     - slot_was_set:
+#         - business_profession: "insurance broker"
+
+# - story: User provides name of reinsured party
+#   steps:
+#     - intent: ask_name_reinsured
+#     - action: utter_ask_name_reinsured
+#     - slot_was_set:
+#         - name_reinsured: "XYZ Insurance"
+
+# - story: User provides name of broker
+#   steps:
+#     - intent: ask_name_broker
+#     - action: utter_ask_name_broker
+#     - slot_was_set:
+#         - name_broker: "John Doe Brokerage"
+
+# - story: User provides name of insured party
+#   steps:
+#     - intent: ask_name_insured
+#     - action: utter_ask_name_insured
+#     - slot_was_set:
+#         - name_insured: "ABC Corp"
+
+# - story: User provides number of partners or principals
+#   steps:
+#     - intent: ask_number_partners_principal
+#     - action: utter_ask_number_partners_principal
+#     - slot_was_set:
+#         - number_partners_principal: 3
+
+# - story: User provides number of qualified assistants
+#   steps:
+#     - intent: ask_number_qualified_assistants
+#     - action: utter_ask_number_qualified_assistants
+#     - slot_was_set:
+#         - number_qualified_assistants: 5
+
+# - story: User provides number of unqualified assistants
+#   steps:
+#     - intent: ask_number_unqualified_assistants
+#     - action: utter_ask_number_unqualified_assistants
+#     - slot_was_set:
+#         - number_unqualified_assistants: 2
+
+# - story: User provides number of other staff
+#   steps:
+#     - intent: ask_number_other_staff
+#     - action: utter_ask_number_other_staff
+#     - slot_was_set:
+#         - number_other_staff: 8
+
+# - story: User provides indemnity amount
+#   steps:
+#     - intent: ask_indemnity_amount
+#     - action: utter_ask_indemnity_amount
+#     - slot_was_set:
+#         - indemnity_amount: 1000000
+
+# - story: User provides excess amount
+#   steps:
+#     - intent: ask_excess_amount
+#     - action: utter_ask_excess_amount
+#     - slot_was_set:
+#         - excess_amount: 50000
+
+# - story: User confirms coverage for extensions
+#   steps:
+#     - intent: ask_coverage_extensions
+#     - action: utter_ask_coverage_extensions
+#     - slot_was_set:
+#         - extensions: true
+
+# - story: User denies coverage for extensions
+#   steps:
+#     - intent: ask_coverage_extensions
+#     - action: utter_ask_coverage_extensions
+#     - slot_was_set:
+#         - extensions: false
+
+# - story: User confirms coverage for loss of documents
+#   steps:
+#     - intent: ask_coverage_loss_of_documents
+#     - action: utter_ask_coverage_loss_of_documents
+#     - slot_was_set:
+#         - loss_of_documents: true
+
+# - story: User denies coverage for loss of documents
+#   steps:
+#     - intent: ask_coverage_loss_of_documents
+#     - action: utter_ask_coverage_loss_of_documents
+#     - slot_was_set:
+#         - loss_of_documents: false
+
+# - story: User confirms coverage for dishonest employees
+#   steps:
+#     - intent: ask_coverage_dishonest_employees
+#     - action: utter_ask_coverage_dishonest_employees
+#     - slot_was_set:
+#         - dishonest_employees: true
+
+# - story: User denies coverage for dishonest employees
+#   steps:
+#     - intent: ask_coverage_dishonest_employees
+#     - action: utter_ask_coverage_dishonest_employees
+#     - slot_was_set:
+#         - dishonest_employees: false
+
+# - story: User confirms coverage for incoming/outgoing partners
+#   steps:
+#     - intent: ask_coverage_incoming_outgoing_partners
+#     - action: utter_ask_coverage_incoming_outgoing_partners
+#     - slot_was_set:
+#         - incoming_outgoing_partners: true
+
+# - story: User denies coverage for incoming/outgoing partners
+#   steps:
+#     - intent: ask_coverage_incoming_outgoing_partners
+#     - action: utter_ask_coverage_incoming_outgoing_partners
+#     - slot_was_set:
+#         - incoming_outgoing_partners: false
+
+# - story: User confirms coverage for breach of authority
+#   steps:
+#     - intent: ask_coverage_breach_of_authority
+#     - action: utter_ask_coverage_breach_of_authority
+#     - slot_was_set:
+#         - breach_of_authority: true
+
+# - story: User denies coverage for breach of authority
+#   steps:
+#     - intent: ask_coverage_breach_of_authority
+#     - action: utter_ask_coverage_breach_of_authority
+#     - slot_was_set:
+#         - breach_of_authority: false
+
+# - story: User confirms coverage for libel and slander
+#   steps:
+#     - intent: ask_coverage_libel_and_slander
+#     - action: utter_ask_coverage_libel_and_slander
+#     - slot_was_set:
+#         - libel_and_slander: true
+
+# - story: User denies coverage for libel and slander
+#   steps:
+#     - intent: ask_coverage_libel_and_slander
+#     - action: utter_ask_coverage_libel_and_slander
+#     - slot_was_set:
+#         - libel_and_slander: false
+
+
+# - story: happy path
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_great
+#   - action: utter_happy
+
+# - story: sad path 1
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: affirm
+#   - action: utter_happy
+
+# - story: sad path 2
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: deny
+#   - action: utter_goodbye
+
+# - story: User says goodbye
+#   steps:
+#     - intent: goodbye
+#     - action: utter_goodbye
+
+# - story: User affirms a question
+#   steps:
+#     - intent: affirm
+#     - action: utter_affirm
+
+# - story: User denies a question
+#   steps:
+#     - intent: deny
+#     - action: utter_deny
+
+# - story: User reports they're in a great mood
+#   steps:
+#     - intent: mood_great
+#     - action: utter_mood_great
+
+# - story: User reports they're in an unhappy mood
+#   steps:
+#     - intent: mood_unhappy
+#     - action: utter_mood_unhappy
