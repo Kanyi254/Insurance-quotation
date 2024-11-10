@@ -11,12 +11,12 @@ intents:
   - ask_number_unqualified_assistants
   - ask_number_other_staff
   - ask_indemnity_amount 
-  - ask_coverage_extensions
-  - ask_coverage_loss_of_documents
-  - ask_coverage_dishonest_employees
-  - ask_coverage_incoming_outgoing_partners
-  - ask_coverage_breach_of_authority
-  - ask_coverage_libel_and_slander
+  # - ask_coverage_extensions
+  # - ask_coverage_loss_of_documents
+  # - ask_coverage_dishonest_employees
+  # - ask_coverage_incoming_outgoing_partners
+  # - ask_coverage_breach_of_authority
+  # - ask_coverage_libel_and_slander
   - goodbye
   - bot_challenge  
   
@@ -32,12 +32,12 @@ entities:
   - number_unqualified_assistants
   - number_other_staff
   - indemnity_amount
-  - extensions
-  - loss_of_documents
-  - dishonest_employees
-  - incoming_outgoing_partners
-  - breach_of_authority
-  - libel_and_slander
+  # - extensions
+  # - loss_of_documents
+  # - dishonest_employees
+  # - incoming_outgoing_partners
+  # - breach_of_authority
+  # - libel_and_slander
 
 
 slots:
@@ -86,36 +86,36 @@ slots:
     mappings:
       - type: from_entity
         entity: indemnity_amount
-  extensions:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: extensions
-  loss_of_documents:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: loss_of_documents
-  dishonest_employees:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: dishonest_employees
-  incoming_outgoing_partners:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: incoming_outgoing_partners
-  breach_of_authority:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: breach_of_authority
-  libel_and_slander:
-    type: text
-    mappings:
-      - type: from_entity
-        entity: libel_and_slander
+  # extensions:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: extensions
+  # loss_of_documents:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: loss_of_documents
+  # dishonest_employees:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: dishonest_employees
+  # incoming_outgoing_partners:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: incoming_outgoing_partners
+  # breach_of_authority:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: breach_of_authority
+  # libel_and_slander:
+  #   type: text
+  #   mappings:
+  #     - type: from_entity
+  #       entity: libel_and_slander
 
 
 forms:
@@ -130,12 +130,12 @@ forms:
       - number_unqualified_assistants
       - number_other_staff
       - indemnity_amount
-      - extensions
-      - loss_of_documents
-      - dishonest_employees
-      - incoming_outgoing_partners
-      - breach_of_authority
-      - libel_and_slander
+      # - extensions
+      # - loss_of_documents
+      # - dishonest_employees
+      # - incoming_outgoing_partners
+      # - breach_of_authority
+      # - libel_and_slander
 
 responses:
   # utter_greet:

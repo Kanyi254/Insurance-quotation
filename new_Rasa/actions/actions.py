@@ -33,17 +33,17 @@ class ActionGenerateQuote(Action):
         name_reinsured = tracker.get_slot('name_reinsured')
         name_broker = tracker.get_slot('name_broker')
         name_insured = tracker.get_slot('name_insured')
-        number_partners_principal = tracker.get_slot('number_partners_principal')
-        number_qualified_assistants = tracker.get_slot('number_qualified_assistants')
-        number_unqualified_assistants = tracker.get_slot('number_unqualified_assistants')
-        number_other_staff = tracker.get_slot('number_other_staff')
-        indemnity_amount = tracker.get_slot('indemnity_amount')
-        extensions = tracker.get_slot('extensions')
-        loss_of_documents = tracker.get_slot('loss_of_documents')
-        dishonest_employees = tracker.get_slot('dishonest_employees')
-        incoming_outgoing_partners = tracker.get_slot('incoming_outgoing_partners')
-        breach_of_authority = tracker.get_slot('breach_of_authority')
-        libel_and_slander = tracker.get_slot('libel_and_slander')
+        number_partners_principal = int(tracker.get_slot('number_partners_principal'))
+        number_qualified_assistants = int(tracker.get_slot('number_qualified_assistants'))
+        number_unqualified_assistants = int(tracker.get_slot('number_unqualified_assistants'))
+        number_other_staff = int(tracker.get_slot('number_other_staff'))
+        indemnity_amount = int(tracker.get_slot('indemnity_amount'))
+        # extensions = tracker.get_slot('extensions')
+        # loss_of_documents = tracker.get_slot('loss_of_documents')
+        # dishonest_employees = tracker.get_slot('dishonest_employees')
+        # incoming_outgoing_partners = tracker.get_slot('incoming_outgoing_partners')
+        # breach_of_authority = tracker.get_slot('breach_of_authority')
+        # libel_and_slander = tracker.get_slot('libel_and_slander')
 
         # Calculate Staff Fee
         staff_fee = (number_partners_principal * 3600) + (number_qualified_assistants * 3000) + (number_unqualified_assistants * 2000) + (number_other_staff * 1000)
@@ -101,16 +101,18 @@ class ActionGenerateQuote(Action):
         basic_premium = A + B + C
 
         # Calculate Extensions Fee
-        extensions_fee = 0
-        if loss_of_documents or dishonest_employees or incoming_outgoing_partners or breach_of_authority or libel_and_slander:
-            extensions_fee = basic_premium * 0.10 * (
-                (loss_of_documents == 'yes') + (dishonest_employees == 'yes') +
-                (incoming_outgoing_partners == 'yes') + (breach_of_authority == 'yes') +
-                (libel_and_slander == 'yes')
-            )
+        # extensions_fee = 0
+        # if loss_of_documents or dishonest_employees or incoming_outgoing_partners or breach_of_authority or libel_and_slander:
+        #     extensions_fee = basic_premium * 0.10 * (
+        #         (loss_of_documents == 'yes') + (dishonest_employees == 'yes') +
+        #         (incoming_outgoing_partners == 'yes') + (breach_of_authority == 'yes') +
+        #         (libel_and_slander == 'yes')
+        #     )
 
         # Calculate Comprehensive Premium
-        comprehensive_premium = basic_premium + extensions_fee
+        # comprehensive_premium = basic_premium + extensions_fee
+
+        comprehensive_premium = basic_premium
 
         # Calculate Levies Fee
         levies_fee = comprehensive_premium * 0.005
@@ -128,7 +130,7 @@ class ActionGenerateQuote(Action):
             "profession_fee": profession_fee,
             "C": C,
             "basic_premium": basic_premium,
-            "extensions_fee": extensions_fee,
+            # "extensions_fee": extensions_fee,
             "comprehensive_premium": comprehensive_premium,
             "levies_fee": levies_fee,
             "total_premium": total_premium
