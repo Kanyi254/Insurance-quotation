@@ -1,0 +1,807 @@
+{
+    "title": "FEKAN HOWELL AND ASSOCIATES ANNUAL REPORT AND FINANCIAL STATEMENTS",
+    "year_ended": "31 December 2023",
+    "contents": [
+        {
+            "title": "Partnership information",
+            "page": 1
+        },
+        {
+            "title": "Report of the partners",
+            "page": 2
+        },
+        {
+            "title": "Statement of partners\u2019 responsibilities",
+            "page": 3
+        },
+        {
+            "title": "Report of the independent auditors",
+            "page": "4-5"
+        },
+        {
+            "title": "Financial statements",
+            "sub_contents": [
+                {
+                    "title": "Comprehensive income statement",
+                    "page": 6
+                },
+                {
+                    "title": "Statement of changes in capital employed",
+                    "page": 7
+                },
+                {
+                    "title": "Statement of cash flow",
+                    "page": 8
+                },
+                {
+                    "title": "Significant accounting policies",
+                    "page": "9 - 12"
+                },
+                {
+                    "title": "Notes to the financial statements",
+                    "page": "13 - 16"
+                },
+                {
+                    "title": "Other operating income and expenditure",
+                    "page": 17
+                }
+            ]
+        }
+    ],
+    "partnership_information": {
+        "partners": [
+            "Mr. Felix Wamai Kariuki",
+            "Mr. Nicholas Kathiari",
+            "Mr. Patrick Kwagara Mwirigi"
+        ],
+        "registered_office": {
+            "name": "FEKAN Howell and Associates",
+            "profession": "Certified Public Accountants of Kenya",
+            "address": {
+                "building": "Park Suite Building",
+                "road": "44 Parklands Road",
+                "box": "P.O.Box 14299-00800"
+            }
+        },
+        "auditors": {
+            "name": "Njoroge Kibebe and Associates",
+            "profession": "Certified Public Accountants of Kenya",
+            "address": {
+                "box": "P.O Box 58132-00200",
+                "city": "Nairobi"
+            }
+        },
+        "principal_bankers": {
+            "name": "NCBA",
+            "branch": "Thika Road Mall Branch",
+            "city": "Nairobi",
+            "country": "Kenya"
+        }
+    },
+    "report_of_the_partners": {
+        "principal_activities": "The firm's main activities is provision of assurance, tax and advisory services.",
+        "results": {
+            "2023": {
+                "profit_before_tax": 28876414,
+                "tax": null,
+                "profit_after_tax": 28876414
+            },
+            "2022": {
+                "profit_before_tax": 11961271,
+                "tax": null,
+                "profit_after_tax": 11961271
+            }
+        },
+        "auditors": {
+            "name": "Njoroge Kibebe & Associates",
+            "remarks": "The partners monitor the effectiveness, objectivity and independence of the firm's auditors."
+        },
+        "signed_by": {
+            "partner": "Felix Wamai Kariuki",
+            "position": "Managing Partner",
+            "location": "Nairobi",
+            "date": "24TH MAY 2024"
+        }
+    },
+    "statement_of_partners_responsibilities": {
+        "description": "The Partnership Deed requires the partners to prepare financial statements for each financial year that give a true and fair view of the state of affairs of FEKAN Howell and associates.",
+        "approval": {
+            "date": "24TH MAY 2024",
+            "partners": [
+                "Felix Wamai Kariuki",
+                "Patrick Mwirigi"
+            ]
+        }
+    },
+    "report_of_the_independent_auditor": {
+        "recipient": "Members of FEKAN HOWELL & ASSOCIATES",
+        "report_on_financial_statements": "We have audited the accompanying financial statements FEKAN Howell, set out on pages 6 to 17.",
+        "opinion": "In our opinion, the accompanying financial statements give a true and fair view of the state of financial affairs of the firm.",
+        "basis_for_opinion": "We conducted our audit in accordance with International Standards on Auditing.",
+        "key_audit_matters": "Key audit matters are those matters that were of significance in our audit of the financial statements.",
+        "responsibilities_of_management": "The management is responsible for the preparation of financial statements that give a true and fair view in accordance with International Financial Reporting Standards.",
+        "auditor_information": {
+            "name": "Njoroge Kibebe and Associates",
+            "profession": "Certified Public Accountants of Kenya",
+            "contact": {
+                "tel": "+254 020 219 9563",
+                "mobile": "+254 728406074",
+                "fax": "+254 20 2679693",
+                "email": "info@kileleconsultinggroup.com",
+                "website": "www.kileleconsultinggroup.com",
+                "address": {
+                    "group": "Kilele Consulting Group",
+                    "location": "Trio Complex, Thika Road",
+                    "box": "P.O. Box 58132, Nairobi 00200",
+                    "country": "Kenya"
+                }
+            }
+        }
+    },
+    "comprehensive_income_statement": {
+        "title": "COMPREHENSIVE INCOME STATEMENT",
+        "data": [
+            {
+                "description": "Revenue",
+                "note": 1,
+                "2022": 74165653,
+                "2021": 51513198
+            },
+            {
+                "description": "Administrative Expenses",
+                "note": null,
+                "2022": -43425654,
+                "2021": -38283243
+            },
+            {
+                "description": "Operating Expenses",
+                "note": null,
+                "2022": -1170295,
+                "2021": -1091659
+            },
+            {
+                "description": "Operating Profit",
+                "note": null,
+                "2022": 29569704,
+                "2021": 12138296
+            },
+            {
+                "description": "Finance Costs",
+                "note": null,
+                "2022": -693289,
+                "2021": -177025
+            },
+            {
+                "description": "Profit Before Tax",
+                "note": null,
+                "2022": 28876414,
+                "2021": 11961271
+            },
+            {
+                "description": "Tax",
+                "note": 4,
+                "2022": null,
+                "2021": null
+            },
+            {
+                "description": "Profit for the Year",
+                "note": null,
+                "2022": 28876414,
+                "2021": 11961271
+            }
+        ],
+        "notes": "The significant accounting policies on pages 9 to 12 and the notes on pages 14 to 17 form an integral part of these financial statements."
+    },
+    "statement_of_changes_in_capital_employed": {
+        "title": "STATEMENT OF CHANGES IN CAPITAL EMPLOYED",
+        "data": {
+            "2022": {
+                "at_start_of_year": {
+                    "partners_capital": 600000,
+                    "partners_current_account": 2002182,
+                    "total": 2602182
+                },
+                "drawings": {
+                    "partners_capital": 0,
+                    "partners_current_account": -7920885,
+                    "total": -7920885
+                },
+                "profit_for_the_year": {
+                    "partners_capital": 0,
+                    "partners_current_account": 11961271,
+                    "total": 11961271
+                },
+                "at_end_of_year": {
+                    "partners_capital": 600000,
+                    "partners_current_account": 6042568,
+                    "total": 6642568
+                }
+            },
+            "2023": {
+                "at_start_of_year": {
+                    "partners_capital": 600000,
+                    "partners_current_account": 6042568,
+                    "total": 6642568
+                },
+                "contributions": {
+                    "partners_capital": 2400000,
+                    "partners_current_account": 0,
+                    "total": 2400000
+                },
+                "drawings": {
+                    "partners_capital": 0,
+                    "partners_current_account": -24355809,
+                    "total": -24355809
+                },
+                "profit_for_the_year": {
+                    "partners_capital": 0,
+                    "partners_current_account": 28876414,
+                    "total": 28876414
+                },
+                "at_end_of_year": {
+                    "partners_capital": 3000000,
+                    "partners_current_account": 10563173,
+                    "total": 13563173
+                }
+            }
+        },
+        "notes": "The significant accounting policies on pages 9 to 12 and the notes on pages 14 to 17 form an integral part of these financial statements."
+    },
+    "statement_of_cashflow": {
+        "title": "STATEMENT OF CASHFLOW",
+        "data": {
+            "operating_activities": {
+                "cash_generated_from_operations": {
+                    "note": 12,
+                    "2023": 28074565,
+                    "2022": 10922501
+                },
+                "tax_paid": {
+                    "note": "null",
+                    "2023": 0,
+                    "2022": 0
+                },
+                "net_cash_generated_from_operating_activities": {
+                    "2023": 28074565,
+                    "2022": 10922501
+                }
+            },
+            "investing_activities": {
+                "purchase_of_equipment": {
+                    "note": 7,
+                    "2023": -1474697,
+                    "2022": -638000
+                },
+                "asset_disposal_net_movement": {
+                    "note": "null",
+                    "2023": 19745,
+                    "2022": 0
+                },
+                "ppe_amortisation_adjustment": {
+                    "note": "null",
+                    "2023": -3374,
+                    "2022": 0
+                },
+                "purchase_of_software": {
+                    "note": 8,
+                    "2023": 0,
+                    "2022": 0
+                },
+                "net_cash_used_in_investing_activities": {
+                    "2023": -1458326,
+                    "2022": -638000
+                }
+            },
+            "financing_activities": {
+                "current_account": {
+                    "note": "null",
+                    "2023": -24355809,
+                    "2022": -7925560
+                },
+                "capital_injected_during_the_year": {
+                    "note": "null",
+                    "2023": 2400000,
+                    "2022": 0
+                },
+                "net_cash_used_in_financing_activities": {
+                    "2023": -21955809,
+                    "2022": -7925560
+                }
+            },
+            "increase_in_cash_and_cash_equivalents": {
+                "2023": 4660431,
+                "2022": 2358941
+            },
+            "movement_in_cash_and_cash_equivalents": {
+                "at_start_of_year": {
+                    "2023": 3947802,
+                    "2022": 1588861
+                },
+                "increase_in_cash_and_cash_equivalents": {
+                    "2023": 4660431,
+                    "2022": 2358941
+                },
+                "at_end_of_year": {
+                    "note": 10,
+                    "2023": 8608232,
+                    "2022": 3947802
+                }
+            }
+        },
+        "notes": "The significant accounting policies on pages 9 to 12 and the notes on pages 14 to 17 form an integral part of these financial statements."
+    },
+    "significant_accounting_policies": {
+        "title": "SIGNIFICANT ACCOUNTING POLICIES",
+        "description": "The principal accounting policies adopted in the preparation of these financial statements are set out below. These policies have been consistently applied to all the years presented, unless otherwise stated.",
+        "policies": {
+            "a": {
+                "title": "Basis of preparation",
+                "content": "The financial statements are prepared on a historical cost basis in accordance with International Financial Reporting Standards (IFRS)."
+            },
+            "b": {
+                "title": "Revenue recognition",
+                "content": "Revenue comprises the fair value of the consideration received or receivable for the sale of goods and/or performance of services, in the ordinary course of business and is stated net of Value Added Tax (VAT), rebates and discounts. The partnership recognises revenue when the amount of revenue can be reliably measured, it is probable that future economic benefits will flow to the entity and when the specific criteria have been met for each of the partnership's activities as described below. The amount of revenue is not considered to be reliably measured until all contingencies relating to the sale have been resolved. The partnership bases its estimates on historical results, taking into consideration the type of customer, type of transaction and specifics of each arrangement. Sales of goods and services are recognised upon delivery of products and customer acceptance."
+            },
+            "c": {
+                "title": "Property and equipment",
+                "content": "All equipment is initially recorded at cost and thereafter stated at historical cost less depreciation. Historical cost comprises expenditure initially incurred to bring the asset to its location and condition ready for its intended use. Subsequent costs are included in the asset's carrying amount or recognised as a separate asset, as appropriate, only when it is probable that future economic benefits associated with the item will flow to the partnership and the cost can be reliably measured. The carrying amount of the replaced part is derecognised. All other repairs and maintenance are charged to the income statement during the financial year in which they are incurred. Depreciation on other assets is calculated on straight line basis to write down the cost of each asset to its residual value over its estimated useful life using the following annual rates: Equipment 12.5%, Computers 30.0%, Furniture and fitting 12.5%. The assets' residual values and useful lives are reviewed and adjusted if appropriate, at each balance sheet date. An asset's carrying amount is written down immediately to its recoverable amount if the asset\u2019s carrying amount is greater than its estimated recoverable amount. Gains and losses on disposal of equipment are determined by comparing the proceeds with the carrying amount and are taken into account in determining operating profit."
+            },
+            "d": {
+                "title": "Translation of foreign currencies",
+                "content": "Transactions in foreign currencies during the year are converted into Kenyan Shillings (functional currency) at rates ruling at the transaction dates. Assets and liabilities at the balance sheet date which are expressed in foreign currencies are translated into Kenya Shillings at rates ruling at that date. The resulting differences from conversion and translation are dealt with in the income statement in the year in which they arise."
+            },
+            "e": {
+                "title": "Financial assets",
+                "content": "The partnership's financial assets which includes guarantees, cash and cash equivalents and trade and other receivables fall into the following category: Loans and receivables: financial assets with fixed or determinable payments that are not quoted in an active market. Such assets are classified as current assets where maturities are within 12 months of the balance sheet date. All assets with maturities greater than 12 months after the balance sheet date are classified as non-current assets. Such assets are carried at amortised cost using the effective interest rate method. Changes in the carrying amount are recognised in the income statement. Purchases and sales of financial assets are recognised on the trade date i.e. the date on which the partnership commits to purchase or sell the assets. Financial assets are derecognised when the rights to receive cash flows from the investments have expired or have been transferred and the partnership has transferred substantially all risks and rewards of ownership. A financial asset is impaired if its carrying amount is greater than its estimated recoverable amount. The amount of the impairment loss for assets carried at amortised cost is calculated as the difference between the asset's carrying amount and the present values of expected future cash flows, discounted at the financial instrument's effective interest rate. Impairment losses are taken into account for determining operating profit."
+            },
+            "f": {
+                "title": "Financial liabilities",
+                "content": "Financial liabilities are recognised initially at fair value and subsequently measured at amortised cost, using the effective interest rate method. Borrowings are classified as financial liabilities."
+            },
+            "g": {
+                "title": "Retirement benefit obligations",
+                "content": "The partnership and its employees contribute to the National Social Security Fund (NSSF), a statutory defined contribution scheme registered under NSSF Act. The partnership's contributions to the defined contribution scheme are charged to the statement of comprehensive income in the year to which they relate."
+            },
+            "h": {
+                "title": "Accounting for leases",
+                "content": "Leases of assets under which a significant portion of the risks and rewards of ownership are effectively retained by the lessor are classified as operating leases. Payments made under operating leases are charged to the income statement on a straight line basis over the period of the lease."
+            },
+            "i": {
+                "title": "Inventories",
+                "content": "Inventories are stated at the lower of cost and net realisable value. Cost is determined by the first-in-first-out (FIFO) method. Net realisable value is the estimate of the selling price in the ordinary course of business, less the costs of completion and selling expenses."
+            },
+            "j": {
+                "title": "Trade receivables",
+                "content": "Trade receivables are recognised initially at fair value and subsequently measured at amortised cost using the effective interest rate method, less provision for impairment. Impairment of trade receivables is recognised in the income statement under administrative expenses when there is objective evidence that the partnership will not be able to collect all amounts due per the original terms of the receivables. Significant financial difficulties of the debtor, probability that the debtor will enter bankruptcy or financial reorganisation and default in payments are considered indicators that the trade receivable is impaired. The impairment provision is based on the difference between the carrying amount and the present fair value of the expected cash flows, discounted at the effective interest rate. Receivables not collectible are written off against the impairment provision. Subsequent recoveries of amounts previously written off are credited to the income statement under administrative expenses in the year of their recovery."
+            },
+            "k": {
+                "title": "Cash and cash equivalents",
+                "content": "For the purposes of the cash flow statement, cash and cash equivalents comprise cash in hand, deposits held at call with banks, and financial assets with maturities of less than 3 months, net of bank overdrafts and money market lines. In the balance sheet, bank overdrafts are included within borrowings in current liabilities."
+            },
+            "l": {
+                "title": "Trade payables",
+                "content": "Trade payables are recognised initially at fair value and subsequently measured at amortised cost using the effective interest rate method."
+            },
+            "m": {
+                "title": "Taxation",
+                "content": {
+                    "current_tax": "Current tax is provided on the results for the year, adjusted in accordance with tax legislation.",
+                    "deferred_tax": "Deferred tax is provided using the liability method for all temporary timing differences arising between the tax bases of assets and liabilities and their carrying values for financial reporting purposes. Currently enacted tax rates are used to determine deferred tax. Deferred tax assets are recognised only to the extent that it is probable that future taxable profits will be available against which temporary timing differences can be utilised."
+                }
+            },
+            "n": {
+                "title": "Borrowings",
+                "content": "Borrowings are initially recognised at fair value, net of transaction costs incurred and are subsequently stated at amortised cost. Any difference between the proceeds (net of transaction costs) and the redemption value is recognised as interest expense in the income statement under finance costs. Borrowings are classified as current liabilities unless the partnership has unconditional right to defer settlement of the liability for at least 12 months after the balance sheet date."
+            },
+            "o": {
+                "title": "Capital",
+                "content": "Partners injections are classifies as capital employed."
+            }
+        }
+    },
+    "Notes to the Financial Statements": [
+        {
+            "Note": 1,
+            "Category/Description": "Revenue",
+            "2023 (Shs)": 74165653,
+            "2022 (Shs)": 51513198,
+            "Details": {
+                "Assurance": [
+                    50816082,
+                    37363979
+                ],
+                "Consultancy": [
+                    18186240,
+                    8919219
+                ],
+                "Training and other income": [
+                    5163330,
+                    5230000
+                ]
+            }
+        },
+        {
+            "Note": 2,
+            "Category/Description": "Operating Profit",
+            "2023 (Shs)": null,
+            "2022 (Shs)": null,
+            "Details": {
+                "Depreciation of equipment": [
+                    182230,
+                    258000
+                ],
+                "Auditor\u2019s remuneration - current year": [
+                    40000,
+                    40000
+                ]
+            }
+        },
+        {
+            "Note": 3,
+            "Category/Description": "Staff Costs",
+            "2023 (Shs)": null,
+            "2022 (Shs)": null,
+            "Details": {
+                "Salaries and wages": [
+                    null,
+                    null
+                ]
+            }
+        },
+        {
+            "Note": 4,
+            "Category/Description": "Tax",
+            "2023 (Shs)": null,
+            "2022 (Shs)": null,
+            "Details": {
+                "Profit before tax": [
+                    28876414,
+                    11961271
+                ],
+                "Tax charge": [
+                    null,
+                    null
+                ]
+            }
+        },
+        {
+            "Note": 5,
+            "Category/Description": "Partners Capital",
+            "2023 (Shs)": 3000000,
+            "2022 (Shs)": 600000,
+            "Details": {
+                "At start of year": [
+                    600000,
+                    600000
+                ],
+                "Felix Wamai Kariuki": [
+                    800000,
+                    null
+                ],
+                "Nicholas Kathiari": [
+                    800000,
+                    null
+                ],
+                "Patrick Kwagara Mwirigi": [
+                    800000,
+                    null
+                ]
+            }
+        },
+        {
+            "Note": 6,
+            "Category/Description": "Partners Current Account",
+            "2023 (Shs)": 10563173,
+            "2022 (Shs)": 6042568,
+            "Details": {
+                "Opening Balance": [
+                    6042568,
+                    2002182
+                ],
+                "Drawings": [
+                    -24335809,
+                    -7920885
+                ],
+                "Share of profits": [
+                    28876414,
+                    11961271
+                ]
+            }
+        },
+        {
+            "Note": 7,
+            "Category/Description": "Equipment",
+            "2023 (Shs)": 2089215,
+            "2022 (Shs)": 1118554,
+            "Details": {
+                "Cost - Furniture & Fittings": [
+                    292411,
+                    121411
+                ],
+                "Cost - Equipment": [
+                    1896987,
+                    622790
+                ],
+                "Cost - Computers": [
+                    774000,
+                    774000
+                ],
+                "Additions - Furniture & Fittings": [
+                    171000,
+                    null
+                ],
+                "Additions - Equipment": [
+                    1303697,
+                    1303697
+                ],
+                "Depreciation - Start of year - Furniture & Fittings": [
+                    36105,
+                    26627
+                ],
+                "Depreciation - Start of year - Equipment": [
+                    139654,
+                    85972
+                ],
+                "Depreciation - Start of year - Computers": [
+                    227687,
+                    45583
+                ],
+                "Depreciation Charge - Furniture & Fittings": [
+                    44061,
+                    30353
+                ],
+                "Depreciation Charge - Equipment": [
+                    182230,
+                    68474
+                ],
+                "Depreciation Charge - Computers": [
+                    258000,
+                    142639
+                ],
+                "Net Book Value 31 December 2023 - Furniture": [
+                    191371,
+                    64432
+                ],
+                "Net Book Value 31 December 2023 - Equipment": [
+                    1570066,
+                    468344
+                ],
+                "Net Book Value 31 December 2023 - Computers": [
+                    327778,
+                    585778
+                ]
+            }
+        },
+        {
+            "Note": 8,
+            "Category/Description": "Intangible Assets",
+            "2023 (Shs)": 425,
+            "2022 (Shs)": 5525,
+            "Details": {
+                "Cost at start of year - Software": [
+                    15300,
+                    15300
+                ],
+                "Depreciation start of year - Software": [
+                    9350,
+                    4675
+                ],
+                "Adjustment - Software": [
+                    425,
+                    null
+                ],
+                "Depreciation charge for the year - Software": [
+                    5100,
+                    5100
+                ]
+            }
+        },
+        {
+            "Note": 9,
+            "Category/Description": "Trade and Other Receivables",
+            "2023 (Shs)": 8614109,
+            "2022 (Shs)": 12167978,
+            "Details": {
+                "Trade receivables": [
+                    5812372,
+                    10352860
+                ],
+                "Deposits": [
+                    464331,
+                    139550
+                ],
+                "Other receivables": [
+                    2337406,
+                    1675567
+                ]
+            }
+        },
+        {
+            "Note": 10,
+            "Category/Description": "Cash and Cash Equivalents",
+            "2023 (Shs)": 8608232,
+            "2022 (Shs)": 3947803,
+            "Details": {
+                "NCBA Bank": [
+                    8606060,
+                    3943332
+                ],
+                "Cash in hand": [
+                    2172,
+                    4471
+                ]
+            }
+        },
+        {
+            "Note": 11,
+            "Category/Description": "Trade and Other Payables",
+            "2023 (Shs)": 5748808,
+            "2022 (Shs)": 10593917,
+            "Details": {
+                "Trade payables": [
+                    2793860,
+                    91246
+                ],
+                "Other payables": [
+                    630309,
+                    5642872
+                ],
+                "Accruals": [
+                    2324639,
+                    4877799
+                ]
+            }
+        },
+        {
+            "Note": 12,
+            "Category/Description": "Cash Generated from/(used in) Operations",
+            "2023 (Shs)": 28074565,
+            "2022 (Shs)": 10922501,
+            "Details": {
+                "Profit before tax": [
+                    28876414,
+                    11961271
+                ],
+                "Depreciation on equipment": [
+                    484291,
+                    245264
+                ],
+                "Software amortization": [
+                    5100,
+                    4675
+                ],
+                "Adjustments - Changes in trade and other receivables": [
+                    3553869,
+                    -10567664
+                ],
+                "Adjustments - Changes in trade and other payables": [
+                    -4845109,
+                    9278955
+                ]
+            }
+        }
+    ],
+    "13": {
+        "Financial Risk Management": {
+            "Overview": "The partnership\u2019s activities expose it to a variety of financial risks: market risk (interest rate risk), credit risk, and liquidity risk. The partnership\u2019s overall risk management programme focuses on the unpredictability of financial markets and seeks to minimise potential adverse effects on the partnership\u2019s financial performance. Risk management is carried out by the partnership, with partners identifying, evaluating, and hedging financial risks in close cooperation with various staff in the organization.",
+            "Credit Risk": {
+                "Description": "Credit risk arises from cash and cash equivalents, as well as credit exposures to customers, including outstanding receivables.",
+                "Management Assessment": "Management assesses the credit quality of the customer, taking into account their position, past experience, and other factors.",
+                "Renegotiation": "None of the financial assets that are fully performing has been renegotiated in the last year.",
+                "Exposure Quantification": "Exposure to this risk has been quantified in each financial asset note in the financial statements along with any concentration of risk."
+            },
+            "Liquidity Risk": {
+                "Description": "Prudent liquidity risk management implies maintaining sufficient cash and cash equivalents to meet obligations as they fall due.",
+                "Management Strategy": "The partnership ensures its inflows and outflows are matched sufficiently to minimise its exposure to liquidity risk."
+            }
+        },
+        "14": {
+            "Capital Management": {
+                "Objectives": [
+                    "To provide an adequate return to the partnership by pricing products and services commensurately with the level of risk.",
+                    "To safeguard the entity's ability to continue as a going concern, so that it can continue to provide returns for partners and benefits for other stakeholders.",
+                    "To maintain a strong asset base to support the development of business."
+                ],
+                "Capital Structure Management": "The partnership sets the amount of capital in proportion to risk and makes adjustments in light of changes in economic conditions and the risk characteristics of the underlying assets. Adjustments may include changing the amount of share of profit paid to partners, returning capital to partners, or selling assets to reduce debt.",
+                "Gearing Ratio": "The partnership monitors capital on the basis of the gearing ratio, calculated as net debt divided by capital. Net debt is total debt less cash and cash equivalents. Capital comprises all components of equity (i.e., capital and retained earnings)."
+            }
+        },
+        "15": {
+            "Events After the Balance Sheet Date": "There are no material events after the balance sheet date which require disclosure."
+        },
+        "16": {
+            "Deferred Tax": "No provision has been made for deferred tax as there are no material temporary timing differences."
+        },
+        "17": {
+            "Provision for Employee Entitlements": "No provision has been made for employee entitlements as the amounts involved are not material."
+        },
+        "18": {
+            "Country of Incorporation": "The partnership is registered in Kenya under the Registrar of Business Names Act and is domiciled in Kenya."
+        },
+        "19": {
+            "Presentation Currency": "These financial statements are presented in Kenya Shillings (Shs)."
+        }
+    },
+    "Other Operating Income and Expenditure": {
+        "Employment": {
+            "2023 (Shs)": {
+                "Salaries and wages": 7084241,
+                "Staff welfare": 427525,
+                "Staff training": 684935,
+                "Total Employment": 8196701
+            },
+            "2022 (Shs)": {
+                "Salaries and wages": 2949942,
+                "Staff welfare": 0,
+                "Staff training": 436178,
+                "Total Employment": 3386120
+            }
+        },
+        "Other Administration Expenses": {
+            "2023 (Shs)": {
+                "Consultancy charges": 24819960,
+                "Audit fees": 80000,
+                "Telephone, communication and postage": 1399600,
+                "Electricity": 53630,
+                "Advertising and marketing": 1198500,
+                "Internet expenses": 160696,
+                "Travel and accommodation": 4489081,
+                "Printing and stationeries": 874535,
+                "Subscriptions": 21945,
+                "Tender fees": 211395,
+                "Miscellaneous expenses": 503693,
+                "Rent & rates": 1415917,
+                "Total Other Administration Expenses": 35228953
+            },
+            "2022 (Shs)": {
+                "Consultancy charges": 24122178,
+                "Audit fees": 80000,
+                "Telephone, communication and postage": 1336516,
+                "Electricity": 12986,
+                "Advertising and marketing": 2670000,
+                "Internet expenses": 174673,
+                "Travel and accommodation": 3933357,
+                "Printing and stationeries": 1160820,
+                "Subscriptions": 36146,
+                "Tender fees": 59027,
+                "Miscellaneous expenses": 494091,
+                "Rent & rates": 817330,
+                "Total Other Administration Expenses": 34897123
+            }
+        },
+        "Total Administration Expenses": {
+            "2023 (Shs)": 43425654,
+            "2022 (Shs)": 38283243
+        },
+        "Operating Expenses": {
+            "2023 (Shs)": {
+                "Depreciation": 484291,
+                "Software amortization": 5100,
+                "Insurance and licenses": 347204,
+                "Repairs and maintenance": 333700,
+                "Security": 1170295
+            },
+            "2022 (Shs)": {
+                "Depreciation": 245264,
+                "Software amortization": 4675,
+                "Insurance and licenses": 369370,
+                "Repairs and maintenance": 472350,
+                "Security": 1091659
+            }
+        },
+        "Finance Costs": {
+            "2023 (Shs)": {
+                "Bank charges": 243289,
+                "Interest on Capital accounts": 450000,
+                "Unrealised exchange loss/(gain)": 0,
+                "Total Finance Costs": 693289
+            },
+            "2022 (Shs)": {
+                "Bank charges": 166350,
+                "Interest on Capital accounts": 0,
+                "Unrealised exchange loss/(gain)": 10675,
+                "Total Finance Costs": 177025
+            }
+        }
+    }
+}
