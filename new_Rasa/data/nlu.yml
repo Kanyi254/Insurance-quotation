@@ -1,21 +1,21 @@
 version: "3.1"
 
 nlu:
-# - intent: greet
-#   examples: |
-#     - hey
-#     - hello
-#     - hi
-#     - hello there
-#     - good morning
-#     - good evening
-#     - moin
-#     - hey there
-#     - let's go
-#     - hey dude
-#     - goodmorning
-#     - goodevening
-#     - good afternoon
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
 
 - intent: request_insurance
   examples: |
@@ -30,18 +30,6 @@ nlu:
     - I’m looking to request insurance coverage
     - How do I request an insurance policy?
 
-# - intent: request_insurance
-#   examples: |
-#     - [I would like to request insurance](request_insurance)
-#     - [Can you help me with insurance?](request_insurance)
-#     - [I need insurance for my business](request_insurance)
-#     - [How can I request insurance?](request_insurance)
-#     - [I'd like to get an insurance quote](request_insurance)
-#     - [Can you provide me with insurance details?](request_insurance)
-#     - [I want to inquire about insurance](request_insurance)
-#     - [Please help me with an insurance policy](request_insurance)
-#     - [I’m looking to request insurance coverage](request_insurance)
-#     - [How do I request an insurance policy?](request_insurance)
 
 - intent: ask_business_profession
   examples: |
@@ -398,107 +386,24 @@ nlu:
     - [1700000](indemnity_amount)
 
 
-# - intent: ask_coverage_extensions
-#   examples: |
-#     - [yes](extensions)
-#     - [y](extensions)
-#     - [indeed](extensions)
-#     - [of course](extensions)
-#     - [that sounds good](extensions)
-#     - [correct](extensions)
-#     - [no](extensions)
-#     - [n](extensions)
-#     - [never](extensions)
-#     - [I don't think so](extensions)
-#     - [don't like that](extensions)
-#     - [no way](extensions)
-#     - [not really](extensions)
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
 
-
-# - intent: ask_coverage_loss_of_documents
-#   examples: |
-#     - [yes](loss_of_documents)
-#     - [y](loss_of_documents)
-#     - [indeed](loss_of_documents)
-#     - [of course](loss_of_documents)
-#     - [that sounds good](loss_of_documents)
-#     - [correct](loss_of_documents)
-#     - [no](loss_of_documents)
-#     - [n](loss_of_documents)
-#     - [never](loss_of_documents)
-#     - [I don't think so](loss_of_documents)
-#     - [don't like that](loss_of_documents)
-#     - [no way](loss_of_documents)
-#     - [not really](loss_of_documents)
-
-
-# - intent: ask_coverage_dishonest_employees
-#   examples: |
-#     - [yes](dishonest_employees)
-#     - [y](dishonest_employees)
-#     - [indeed](dishonest_employees)
-#     - [of course](dishonest_employees)
-#     - [that sounds good](dishonest_employees)
-#     - [correct](dishonest_employees)
-#     - [no](dishonest_employees)
-#     - [n](dishonest_employees)
-#     - [never](dishonest_employees)
-#     - [I don't think so](dishonest_employees)
-#     - [don't like that](dishonest_employees)
-#     - [no way](dishonest_employees)
-#     - [not really](dishonest_employees)
-
-
-# - intent: ask_coverage_incoming_outgoing_partners
-#   examples: |
-#     - [yes](incoming_outgoing_partners)
-#     - [y](incoming_outgoing_partners)
-#     - [indeed](incoming_outgoing_partners)
-#     - [of course](incoming_outgoing_partners)
-#     - [that sounds good](incoming_outgoing_partners)
-#     - [correct](incoming_outgoing_partners)
-#     - [no](incoming_outgoing_partners)
-#     - [n](incoming_outgoing_partners)
-#     - [never](incoming_outgoing_partners)
-#     - [I don't think so](incoming_outgoing_partners)
-#     - [don't like that](incoming_outgoing_partners)
-#     - [no way](incoming_outgoing_partners)
-#     - [not really](incoming_outgoing_partners)
-
-
-# - intent: ask_coverage_breach_of_authority
-#   examples: |
-#     - [yes](breach_of_authority)
-#     - [y](breach_of_authority)
-#     - [indeed](breach_of_authority)
-#     - [of course](breach_of_authority)
-#     - [that sounds good](breach_of_authority)
-#     - [correct](breach_of_authority)
-#     - [no](breach_of_authority)
-#     - [n](breach_of_authority)
-#     - [never](breach_of_authority)
-#     - [I don't think so](breach_of_authority)
-#     - [don't like that](breach_of_authority)
-#     - [no way](breach_of_authority)
-#     - [not really](breach_of_authority)
-
-
-# - intent: ask_coverage_libel_and_slander
-#   examples: |
-#     - [yes](libel_and_slander)
-#     - [y](libel_and_slander)
-#     - [indeed](libel_and_slander)
-#     - [of course](libel_and_slander)
-#     - [that sounds good](libel_and_slander)
-#     - [correct](libel_and_slander)
-#     - [no](libel_and_slander)
-#     - [n](libel_and_slander)
-#     - [never](libel_and_slander)
-#     - [I don't think so](libel_and_slander)
-#     - [don't like that](libel_and_slander)
-#     - [no way](libel_and_slander)
-#     - [not really](libel_and_slander)
-
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
 
 - intent: goodbye
   examples: |
@@ -521,66 +426,39 @@ nlu:
     - am I talking to a human?
 
 
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - happy
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
 
-
-
-
-# - intent: affirm
-#   examples: |
-#     - [yes](affirm)
-#     - [y](affirm)
-#     - [indeed](affirm)
-#     - [of course](affirm)
-#     - [that sounds good](affirm)
-#     - [correct](affirm)
-
-# - intent: deny
-#   examples: |
-#     - [no](deny)
-#     - [n](deny)
-#     - [never](deny)
-#     - [I don't think so](deny)
-#     - [don't like that](deny)
-#     - [no way](deny)
-#     - [not really](deny)
-
-
-
-
-
-# - intent: mood_great
-#   examples: |
-#     - perfect
-#     - great
-#     - happy
-#     - amazing
-#     - feeling like a king
-#     - wonderful
-#     - I am feeling very good
-#     - I am great
-#     - I am amazing
-#     - I am going to save the world
-#     - super stoked
-#     - extremely good
-#     - so so perfect
-#     - so good
-#     - so perfect
-
-# - intent: mood_unhappy
-#   examples: |
-#     - my day was horrible
-#     - I am sad
-#     - I don't feel very well
-#     - I am disappointed
-#     - super sad
-#     - I'm so sad
-#     - sad
-#     - very sad
-#     - unhappy
-#     - not good
-#     - not very good
-#     - extremly sad
-#     - so saad
-#     - so sad
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
 
 

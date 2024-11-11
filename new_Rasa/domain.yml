@@ -1,6 +1,9 @@
 version: "3.1"
 
 intents:
+  - greet
+  - mood_great
+  - mood_unhappy
   - request_insurance  
   - ask_business_profession
   - ask_name_reinsured
@@ -11,14 +14,10 @@ intents:
   - ask_number_unqualified_assistants
   - ask_number_other_staff
   - ask_indemnity_amount 
-  # - ask_coverage_extensions
-  # - ask_coverage_loss_of_documents
-  # - ask_coverage_dishonest_employees
-  # - ask_coverage_incoming_outgoing_partners
-  # - ask_coverage_breach_of_authority
-  # - ask_coverage_libel_and_slander
   - goodbye
   - bot_challenge  
+  - deny
+  - affirm
   
 
 
@@ -32,12 +31,6 @@ entities:
   - number_unqualified_assistants
   - number_other_staff
   - indemnity_amount
-  # - extensions
-  # - loss_of_documents
-  # - dishonest_employees
-  # - incoming_outgoing_partners
-  # - breach_of_authority
-  # - libel_and_slander
 
 
 slots:
@@ -86,36 +79,6 @@ slots:
     mappings:
       - type: from_entity
         entity: indemnity_amount
-  # extensions:
-  #   type: text
-  #   mappings:
-  #     - type: from_entity
-  #       entity: extensions
-  # loss_of_documents:
-  #   type: text
-  #   mappings:
-  #     - type: from_entity
-  #       entity: loss_of_documents
-  # dishonest_employees:
-  #   type: text
-  #   mappings:
-  #     - type: from_entity
-  #       entity: dishonest_employees
-  # incoming_outgoing_partners:
-  #   type: text
-  #   mappings:
-  #     - type: from_entity
-  #       entity: incoming_outgoing_partners
-  # breach_of_authority:
-  #   type: text
-  #   mappings:
-  #     - type: from_entity
-  #       entity: breach_of_authority
-  # libel_and_slander:
-  #   type: text
-  #   mappings:
-  #     - type: from_entity
-  #       entity: libel_and_slander
 
 
 forms:
@@ -130,26 +93,20 @@ forms:
       - number_unqualified_assistants
       - number_other_staff
       - indemnity_amount
-      # - extensions
-      # - loss_of_documents
-      # - dishonest_employees
-      # - incoming_outgoing_partners
-      # - breach_of_authority
-      # - libel_and_slander
 
 responses:
-  # utter_greet:
-  # - text: "Hello! How can I assist you today?"
+  utter_greet:
+  - text: "Hello! How can I assist you today?"
 
-  # utter_cheer_up:
-  # - text: "Here’s a little something to lift your spirits:"
-  #   image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_cheer_up:
+  - text: "Here’s a little something to lift your spirits:"
+    image: "https://imgur.com/psbattle-quokka-eating-iNNIOPD"
 
-  # utter_did_that_help:
-  # - text: "Did that help? Let me know if you need more information."
+  utter_did_that_help:
+  - text: "Did that help? Let me know if you need more information."
 
-  # utter_happy:
-  # - text: "Great to hear you're doing well! Let’s keep going."
+  utter_happy:
+  - text: "Great to hear you're doing well! Let’s keep going."
 
   utter_ask_business_profession:
   - text: "Could you please tell me your business profession?"
@@ -178,24 +135,6 @@ responses:
   utter_ask_indemnity_amount:
   - text: "What is the indemnity amount you would like to claim?"
 
-  utter_ask_coverage_extensions:
-  - text: "Do you want coverage for extensions? (Type 'yes' or 'no')"
-
-  utter_ask_coverage_loss_of_documents:
-  - text: "Do you want coverage for loss of documents? (Type 'yes' or 'no')"
-
-  utter_ask_coverage_dishonest_employees:
-  - text: "Do you want coverage for dishonest employees? (Type 'yes' or 'no')"
-
-  utter_ask_coverage_incoming_outgoing_partners:
-  - text: "Do you want coverage for incoming and outgoing partners? (Type 'yes' or 'no')"
-
-  utter_ask_coverage_breach_of_authority:
-  - text: "Do you want coverage for breach of authority? (Type 'yes' or 'no')"
-
-  utter_ask_coverage_libel_and_slander:
-  - text: "Do you want coverage for libel and slander? (Type 'yes' or 'no')"
-
   utter_confirm_form:
   - text: "Thank you for filling out the form! Please wait as I generate a quote for you."
 
@@ -208,11 +147,6 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa, here to help you with your insurance queries."
 
-  # utter_affirm:
-  #   - text: "Great! Let's continue."
-  
-  # utter_deny:
-  #   - text: "Okay, let me know if you need any help later."
 
 
 actions:
