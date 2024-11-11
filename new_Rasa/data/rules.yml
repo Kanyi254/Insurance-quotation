@@ -1,0 +1,35 @@
+version: "3.1"
+
+rules:
+
+- rule: Activate form
+  steps:
+  - intent: request_insurance
+  - action: insurance_form
+  - active_loop: insurance_form
+
+
+- rule: Submit insurance form
+  condition:
+    # Condition that the insurance form is active
+    - active_loop: insurance_form
+  steps:
+    # Form is deactivated
+    - action: insurance_form
+    - active_loop: null
+    - slot_was_set:
+        - requested_slot: null
+    # Actions to perform after form submission
+    - action: utter_confirm_form
+    - action: utter_display_quote
+    - action: action_generate_quote
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot

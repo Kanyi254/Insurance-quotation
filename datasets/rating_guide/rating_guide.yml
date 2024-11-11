@@ -1,0 +1,136 @@
+﻿company: Munich Reinsurance Company of Africa Limited
+location: MRoA - Nairobi
+attention: Mr. R Varia
+contact:
+  ref: 15.10.1997
+  telefax_no: '5647'
+  total_pages: 5
+  division: AFRICA
+  queries_in: MONY
+  telephone: (011) 497-0352
+  telefax: (911) 497-028
+confidentiality_caution: >-
+  If you received this communication in error, please note that it is intended
+  for the addressee only, it is privileged and unauthorized dissemination or
+  publishing is prohibited. Please advise us immediately and return the original
+  message.
+guidelines:
+  title: Professional Indemnity Underwriting Guidelines
+  professions_to_be_underwritten:
+    - Auditors/Accountants/Tax-Advisors/Actuaries
+    - Advocates/Notaries Attorneys
+    - Estate Agents/Valuers/Property Consultants
+    - Architects
+    - Civil and Construction Engineers
+    - Quantity Surveyors/Land Surveyors
+    - Physicians/Surgeons/Veterinary Surgeons/Hospitals
+  exclusions:
+    - Directors and Officers Liability
+    - Insurance and/or Reinsurance Brokers
+    - Investment Advisors
+    - Computer Bureaus/Consultants
+    - Advertising Agents
+    - Shipping and Forwarding Custom Agents
+    - Foreign activities of Multi-National Accountants
+    - Project Managers
+    - Plastic Surgery and Blood Banks
+    - Hospital Administrators (F & O)
+    - Medical and Biological Research Facilities
+    - Genetic damage connected with X-ray and other radiation equipment
+  conditions:
+    - Basis of rating - see attached Rating Schedule
+    - All policies to be issued on a 'claims made' basis
+    - >-
+      Existing policies issued on an 'Act Committed' basis to be renewed on a
+      'Claims Made' basis with consideration for retroactive cover limitation
+    - Policy period to be one year
+    - Local Jurisdiction Clause to be applied in each case
+    - Policies to be written on an individual basis only
+    - Cost and expenses inclusive of limit of indemnity
+    - Annual aggregate limit to be identical to limit of indemnity
+    - >-
+      Architects, Engineers, and Surveyors' policies to be written on a project
+      basis where possible
+    - No retroactive cover if policy transformed from occurrence to claims made
+    - >-
+      Cautious risk assessment for individual coverage of non-employed
+      physicians
+    - >-
+      Special consideration for claims history, qualifications, limited
+      experience, understaffed practice, and activities in specialized fields
+    - >-
+      If retroactive cover/run-off cover/discovery period extension requested,
+      background information necessary
+    - >-
+      Premium loading for specialized fields and experience in industrial or
+      specialized projects
+rating_guide:
+  principals_partners_staff:
+    principals_partners: KSH 3600.00
+    qualified_assistants: KSH 3000.00
+    unqualified_assistants: KSH 2000.00
+    all_other_staff: KSH 1000.00
+  annual_fee_rate:
+    - fee_range: 'up to KSH 1,000,000'
+      rate: 1.50% - 1.05%
+    - fee_range: 'KSH 1,000,000 - 2,000,000'
+      rate: 1.05% - 0.75%
+    - fee_range: 'KSH 2,000,000 - 5,000,000'
+      rate: 0.75% - 0.45%
+    - fee_range: 'KSH 5,000,000 - 10,000,000'
+      rate: 0.45% - 0.35%
+    - fee_range: 'KSH 10,000,000 - 20,000,000'
+      rate: 0.35% - 0.225%
+    - fee_range: 'KSH 20,000,000 - 50,000,000'
+      rate: 0.225% - 0.125%
+  increased_limit_of_indemnity_loading:
+    - limit: 'KSH 1,000,000'
+      loading: 100%
+    - limit: 'KSH 2,500,000'
+      loading: 150%
+    - limit: 'KSH 5,000,000'
+      loading: 190%
+    - limit: 'KSH 10,000,000'
+      loading: 230%
+    - limit: 'KSH 20,000,000'
+      loading: 275%
+    - limit: 'KSH 40,000,000'
+      loading: 325%
+    - limit: 'KSH 60,000,000'
+      loading: 365%
+category_of_profession:
+  100_percent_premium:
+    - Opticians/chemists
+    - Accountants/Auditors
+    - Attorneys
+  135_percent_premium:
+    - Architects/Civil Engineers
+    - Quantity Surveyors
+  175_percent_premium:
+    - Dentists
+    - Doctors/Surgeons
+excess:
+  base: '1% of Limit of Indemnity (minimum KSH 12,000)'
+  discounts_for_increased_excess:
+    2_percent: 20% discount
+    3_percent: 25% discount
+    4_percent: 33% discount
+retroactive_cover:
+  12_months: 40% of annual premium
+  24_months: 65% of annual premium
+extensions:
+  - type: Loss of Documents
+    limit: 10% Max LOI
+    surcharge: 10%
+  - type: Dishonesty of Employees
+    limit: 15% Max LOI
+    surcharge: 10%
+  - type: Incoming/outgoing Partners
+    limit: 10% Max LOI
+    surcharge: 10%
+  - type: Breach of Authority
+    limit: 7.5% Max LOI
+    surcharge: 10%
+  - type: Libel & Slander
+    limit: 10% Max LOI
+    surcharge: 10%

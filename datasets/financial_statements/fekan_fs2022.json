@@ -1,0 +1,945 @@
+{
+    "annual_report": {
+        "title": "Annual Report and Financial Statements",
+        "year_ended": "31 December 2022",
+        "contents": {
+            "partnership_information": "1",
+            "report_of_partners": "2",
+            "statement_of_partners_responsibilities": "3",
+            "report_of_independent_auditors": "4-5",
+            "financial_statements": {
+                "comprehensive_income_statement": "6",
+                "statement_of_financial_position": "7",
+                "statement_of_changes_in_capital_employed": "8",
+                "statement_of_cash_flow": "9",
+                "significant_accounting_policies": "10-13",
+                "notes_to_financial_statements": "14-17",
+                "other_operating_income_and_expenditure": "18"
+            }
+        },
+        "partnership_information": {
+            "partners": [
+                "Mr. Felix Wamai Kariuki",
+                "Mr. Nicholas Kathiari",
+                "Mr. Patrick Kwagara Mwirigi"
+            ],
+            "registered_office": {
+                "name": "FEKAN Howell and Associates",
+                "type": "Certified Public Accountants of Kenya",
+                "address": {
+                    "street": "Park Suite Building, 44 Parklands Road",
+                    "pobox": "P.O.Box 14299-00800"
+                }
+            },
+            "auditors": {
+                "name": "Njoroge Kibebe and Associates",
+                "type": "Certified Public Accountants of Kenya",
+                "address": {
+                    "pobox": "P.O Box 58132-00200",
+                    "city": "Nairobi"
+                }
+            },
+            "principal_bankers": {
+                "name": "NCBA",
+                "branch": "Thika Road Mall Branch",
+                "city": "Nairobi",
+                "country": "Kenya"
+            }
+        },
+        "report_of_partners": {
+            "title": "Report of the Partners",
+            "principal_activities": "The firm's main activities is provision of assurance, tax and advisory services.",
+            "results": {
+                "2022": {
+                    "profit_before_tax": "12,054,644",
+                    "tax": "-",
+                    "profit_after_tax": "12,054,644"
+                },
+                "2021": {
+                    "profit_before_tax": "3,168,441",
+                    "tax": "-",
+                    "profit_after_tax": "3,168,441"
+                }
+            },
+            "auditors": "The auditors, Njoroge Kibebe & Associates continue in office in accordance with the Partnership Deed.",
+            "order": {
+                "by": "Nicholas Kathiari",
+                "title": "Managing Partner",
+                "date": "15TH JUNE 2023",
+                "location": "Nairobi"
+            }
+        },
+        "statement_of_partners_responsibilities": {
+            "responsibilities": [
+                "Prepare financial statements that give a true and fair view.",
+                "Maintain proper accounting records.",
+                "Safeguard the assets of FEKAN Howell and Associates."
+            ],
+            "date_approved": "15TH JUNE 2023",
+            "partners": [
+                "Nicholas Kathiari",
+                "Patrick Mwirigi"
+            ]
+        },
+        "report_of_independent_auditor": {
+            "to": "Members of FEKAN HOWELL & ASSOCIATES",
+            "report_on_financial_statements": "We have audited the accompanying financial statements.",
+            "opinion": "The accompanying financial statements give a true and fair view.",
+            "basis_for_opinion": "Conducted our audit in accordance with International Standards on Auditing.",
+            "key_audit_matters": "Key audit matters are those matters that were of significance.",
+            "other_information": "The Partners are responsible for the other information.",
+            "responsibilities_of_management": "The management is responsible for the preparation of financial statements.",
+            "auditors_contact": {
+                "name": "Njoroge Kibebe and Associates",
+                "telephone": "+254 020 219 9563",
+                "mobile": "+254 728406074",
+                "fax": "+254 20 2679693",
+                "email": "info@kileleconsultinggroup.com",
+                "website": "www.kileleconsultinggroup.com",
+                "address": {
+                    "building": "Trio Complex, Thika Road",
+                    "pobox": "P.O Box 58132, Nairobi 00200",
+                    "country": "Kenya"
+                }
+            }
+        },
+        "auditors_responsibilities": {
+            "objectives": "Obtain reasonable assurance about whether the financial statements are free from material misstatement.",
+            "procedures": [
+                "Identify and assess the risks of material misstatement.",
+                "Obtain an understanding of internal control relevant to the audit.",
+                "Evaluate the appropriateness of accounting policies used."
+            ]
+        },
+        "report_on_other_legal_and_regulatory_requirements": {
+            "requirements": [
+                "We have obtained all the necessary information and explanations.",
+                "Proper books of accounts have been kept.",
+                "The Firm\u2019s statement of financial position and income statement are in agreement with the books of account."
+            ],
+            "engagement_partner": {
+                "name": "CPA Joseph Kibebe Njoroge",
+                "registration_number": "P/No 2798"
+            },
+            "auditor_details": {
+                "name": "JOSEPH KIBE NJOROGE",
+                "company": "NJOROGE KIBE & ASSOCIATES",
+                "type": "Certified Public Accountants (K)",
+                "pobox": "P.O. Box 58132 - 00200",
+                "city": "Nairobi, Kenya",
+                "date": "20TH JUNE 2023"
+            }
+        }
+    },
+    "comprehensive_income_statement": {
+        "description": "COMPREHENSIVE INCOME STATEMENT",
+        "date": "For the year ended 31 December 2022",
+        "data": [
+            {
+                "description": "Revenue",
+                "note": 1,
+                "2022": "Shs 51,513,198",
+                "2021": "Shs 13,813,494"
+            },
+            {
+                "description": "Administrative Expenses",
+                "note": "null",
+                "2022": "(Shs 38,025,243)",
+                "2021": "(Shs 10,173,014)"
+            },
+            {
+                "description": "Operating Expenses",
+                "note": "null",
+                "2022": "(Shs 1,256,285)",
+                "2021": "(Shs 423,955)"
+            },
+            {
+                "description": "Operating Profit",
+                "note": "null",
+                "2022": "Shs 12,231,670",
+                "2021": "Shs 3,216,525"
+            },
+            {
+                "description": "Finance Costs",
+                "note": "null",
+                "2022": "(Shs 177,026)",
+                "2021": "(Shs 48,084)"
+            },
+            {
+                "description": "Profit Before Tax",
+                "note": "null",
+                "2022": "Shs 12,054,644",
+                "2021": "Shs 3,168,441"
+            },
+            {
+                "description": "Tax",
+                "note": 4,
+                "2022": "Shs -",
+                "2021": "Shs -"
+            },
+            {
+                "description": "Profit for the Year",
+                "note": "null",
+                "2022": "Shs 12,054,644",
+                "2021": "Shs 3,168,441"
+            }
+        ]
+    },
+    "statement_of_financial_position": {
+        "description": "STATEMENT OF FINANCIAL POSITION (As at 31st December)",
+        "date": "For the year ended 31 December 2022",
+        "data": [
+            {
+                "description": "CAPITAL EMPLOYED",
+                "note": "null",
+                "2022": "null",
+                "2021": "null"
+            },
+            {
+                "description": "Partners Capital",
+                "note": 5,
+                "2022": "Shs 600,000",
+                "2021": "Shs 600,000"
+            },
+            {
+                "description": "Partners Current Account",
+                "note": "null",
+                "2022": "Shs 6,125,941",
+                "2021": "Shs 2,006,857"
+            },
+            {
+                "description": "Total Capital Employed",
+                "note": "null",
+                "2022": "Shs 6,725,941",
+                "2021": "Shs 2,606,857"
+            },
+            {
+                "description": "Non-Current Assets",
+                "note": "null",
+                "2022": "null",
+                "2021": "null"
+            },
+            {
+                "description": "Equipment",
+                "note": 7,
+                "2022": "Shs 1,118,554",
+                "2021": "Shs 722,019"
+            },
+            {
+                "description": "Intangible Assets",
+                "note": 8,
+                "2022": "Shs 5,525",
+                "2021": "Shs 10,625"
+            },
+            {
+                "description": "Total Non-Current Assets",
+                "note": "null",
+                "2022": "Shs 1,124,079",
+                "2021": "Shs 732,644"
+            },
+            {
+                "description": "Current Assets",
+                "note": "null",
+                "2022": "null",
+                "2021": "null"
+            },
+            {
+                "description": "Trade and Other Receivables",
+                "note": 9,
+                "2022": "Shs 12,167,977",
+                "2021": "Shs 1,600,313"
+            },
+            {
+                "description": "Cash and Cash Equivalents",
+                "note": 10,
+                "2022": "Shs 3,947,803",
+                "2021": "Shs 1,588,862"
+            },
+            {
+                "description": "Total Current Assets",
+                "note": "null",
+                "2022": "Shs 16,115,780",
+                "2021": "Shs 3,189,175"
+            },
+            {
+                "description": "Current Liabilities",
+                "note": "null",
+                "2022": "null",
+                "2021": "null"
+            },
+            {
+                "description": "Trade and Other Payables",
+                "note": 11,
+                "2022": "Shs 10,513,917",
+                "2021": "Shs 1,314,961"
+            },
+            {
+                "description": "Net Current Liabilities",
+                "note": "null",
+                "2022": "Shs 5,601,863",
+                "2021": "Shs 1,874,214"
+            },
+            {
+                "description": "Total Capital Employed",
+                "note": "null",
+                "2022": "Shs 6,725,941",
+                "2021": "Shs 2,606,857"
+            }
+        ],
+        "approval": {
+            "partners": [
+                "NICHOLAS KATHIARI",
+                "PATRICK MWIRIGI"
+            ],
+            "date": "15TH JUNE 2023"
+        }
+    },
+    "statement_of_changes_in_capital_employed": {
+        "description": "STATEMENT OF CHANGES IN CAPITAL EMPLOYED",
+        "date": "For the year ended 31 December 2022",
+        "data": [
+            {
+                "year": 2021,
+                "partners_capital": "Shs 1,233,038",
+                "partners_current_account": "Shs 87,458",
+                "total": "Shs 1,320,496",
+                "at_start_of_year": {
+                    "partners_capital": "Shs 1,233,038",
+                    "partners_current_account": "Shs 87,458",
+                    "total": "Shs 1,320,496"
+                },
+                "prior_year_adjustment": {
+                    "partners_capital": "(Shs 633,038)",
+                    "partners_current_account": "Shs 633,038",
+                    "total": "Shs -"
+                },
+                "drawings": {
+                    "partners_capital": "Shs -",
+                    "partners_current_account": "(Shs 1,882,080)",
+                    "total": "(Shs 1,882,080)"
+                },
+                "profit_for_the_year": {
+                    "partners_capital": "Shs -",
+                    "partners_current_account": "Shs 3,168,441",
+                    "total": "Shs 3,168,441"
+                },
+                "at_end_of_year": {
+                    "partners_capital": "Shs 600,000",
+                    "partners_current_account": "Shs 2,006,857",
+                    "total": "Shs 2,606,857"
+                }
+            },
+            {
+                "year": 2022,
+                "partners_capital": "Shs 600,000",
+                "partners_current_account": "Shs 2,006,857",
+                "total": "Shs 2,606,857",
+                "at_start_of_year": {
+                    "partners_capital": "Shs 600,000",
+                    "partners_current_account": "Shs 2,006,857",
+                    "total": "Shs 2,606,857"
+                },
+                "drawings": {
+                    "partners_capital": "Shs -",
+                    "partners_current_account": "(Shs 7,935,560)",
+                    "total": "(Shs 7,935,560)"
+                },
+                "profit_for_the_year": {
+                    "partners_capital": "Shs -",
+                    "partners_current_account": "Shs 12,054,644",
+                    "total": "Shs 12,054,644"
+                },
+                "at_end_of_year": {
+                    "partners_capital": "Shs 600,000",
+                    "partners_current_account": "Shs 6,125,941",
+                    "total": "Shs 6,725,941"
+                }
+            }
+        ]
+    },
+    "statement_of_cash_flow": {
+        "description": "Statement of Cash Flow",
+        "date": "For the year ended 31 December 2022",
+        "data": [
+            {
+                "description": "Operating Activities",
+                "note": "null",
+                "2022": "null",
+                "2021": "null"
+            },
+            {
+                "description": "Cash Generated from Operations",
+                "note": 12,
+                "2022": "Shs 10,932,501",
+                "2021": "Shs 3,365,731"
+            },
+            {
+                "description": "Tax Paid",
+                "note": "null",
+                "2022": "Shs -",
+                "2021": "Shs -"
+            },
+            {
+                "description": "Net Cash from Operating Activities",
+                "note": "null",
+                "2022": "Shs 10,932,501",
+                "2021": "Shs 3,365,731"
+            },
+            {
+                "description": "Investing Activities",
+                "note": "null",
+                "2022": "null",
+                "2021": "null"
+            },
+            {
+                "description": "Purchase of Equipment",
+                "note": "null",
+                "2022": "(Shs 552,586)",
+                "2021": "(Shs 186,259)"
+            },
+            {
+                "description": "Purchase of Intangible Assets",
+                "note": "null",
+                "2022": "(Shs 1,865)",
+                "2021": "(Shs 2,125)"
+            },
+            {
+                "description": "Net Cash from Investing Activities",
+                "note": "null",
+                "2022": "(Shs 554,451)",
+                "2021": "(Shs 188,384)"
+            },
+            {
+                "description": "Financing Activities",
+                "note": "null",
+                "2022": "null",
+                "2021": "null"
+            },
+            {
+                "description": "Drawings",
+                "note": "null",
+                "2022": "(Shs 7,935,560)",
+                "2021": "(Shs 1,887,850)"
+            },
+            {
+                "description": "Net Cash from Financing Activities",
+                "note": "null",
+                "2022": "(Shs 7,935,560)",
+                "2021": "(Shs 1,887,850)"
+            },
+            {
+                "description": "Net Increase in Cash and Cash Equivalents",
+                "note": "null",
+                "2022": "Shs 2,442,490",
+                "2021": "Shs 1,289,947"
+            },
+            {
+                "description": "Cash and Cash Equivalents at Beginning of Year",
+                "note": "null",
+                "2022": "Shs 1,505,313",
+                "2021": "Shs 215,366"
+            },
+            {
+                "description": "Cash and Cash Equivalents at End of Year",
+                "note": "null",
+                "2022": "Shs 3,947,803",
+                "2021": "Shs 1,505,313"
+            }
+        ]
+    },
+    "Significant_Accounting_Policies": {
+        "a_Basis_of_Preparation": {
+            "description": "The financial statements are prepared on a historical cost basis in accordance with International Financial Reporting Standards (IFRS)."
+        },
+        "b_Revenue_Recognition": {
+            "description": "Revenue comprises the fair value of the consideration received or receivable for the sale of goods and/or performance of services, in the ordinary course of business and is stated net of Value Added Tax (VAT), rebates and discounts.",
+            "recognition_criteria": [
+                "Revenue is recognized when it can be reliably measured.",
+                "It is probable that future economic benefits will flow to the entity.",
+                "Specific criteria for each activity are met."
+            ],
+            "sales_recognition": "Sales of goods and services are recognised upon delivery of products and customer acceptance."
+        },
+        "c_Property_and_Equipment": {
+            "description": "All equipment is initially recorded at cost and thereafter stated at historical cost less depreciation.",
+            "cost_components": "Expenditure initially incurred to bring the asset to its location and condition ready for its intended use.",
+            "subsequent_costs": "Included in the asset's carrying amount or recognised as a separate asset if future economic benefits will flow and costs can be reliably measured.",
+            "repairs_and_maintenance": "Charged to the income statement during the financial year.",
+            "depreciation": {
+                "method": "Straight line basis",
+                "annual_rates": {
+                    "Equipment": "12.5%",
+                    "Computers": "30.0%",
+                    "Furniture_and_Fitting": "12.5%"
+                }
+            },
+            "asset_review": "Assets' residual values and useful lives are reviewed at each balance sheet date.",
+            "impairment": "Written down to recoverable amount if carrying amount is greater than estimated recoverable amount.",
+            "disposal": "Gains and losses on disposal determined by comparing proceeds with carrying amount."
+        },
+        "d_Translation_of_Foreign_Currencies": {
+            "description": "Transactions in foreign currencies are converted into Kenyan Shillings at transaction rates. Assets and liabilities at the balance sheet date are translated at rates ruling at that date."
+        },
+        "e_Financial_Assets": {
+            "description": "Includes guarantees, cash and cash equivalents, trade and other receivables.",
+            "categories": {
+                "Loans_and_Receivables": {
+                    "description": "Financial assets with fixed or determinable payments not quoted in an active market.",
+                    "classification": {
+                        "current": "Assets maturing within 12 months.",
+                        "non_current": "Assets maturing beyond 12 months."
+                    },
+                    "measurement": "Carried at amortised cost using the effective interest rate method."
+                }
+            },
+            "derecognition": "Financial assets derecognised when rights to receive cash flows expire or are transferred.",
+            "impairment": {
+                "description": "A financial asset is impaired if its carrying amount is greater than its estimated recoverable amount.",
+                "calculation": "Difference between carrying amount and present values of expected future cash flows."
+            }
+        },
+        "f_Financial_Liabilities": {
+            "description": "Recognised initially at fair value and subsequently measured at amortised cost."
+        },
+        "g_Retirement_Benefit_Obligations": {
+            "description": "Contributions to the National Social Security Fund (NSSF) are charged to the statement of comprehensive income in the year they relate."
+        },
+        "h_Accounting_for_Leases": {
+            "description": "Leases where risks and rewards of ownership are retained by the lessor are classified as operating leases. Payments are charged to the income statement on a straight line basis over the lease period."
+        },
+        "i_Inventories": {
+            "description": "Inventories are stated at the lower of cost and net realisable value.",
+            "cost_determination": "First-in-first-out (FIFO) method."
+        },
+        "j_Trade_Receivables": {
+            "description": "Recognised initially at fair value and measured at amortised cost using the effective interest rate method.",
+            "impairment": {
+                "recognition": "Recognised under administrative expenses when objective evidence indicates inability to collect.",
+                "indicators": [
+                    "Significant financial difficulties of the debtor.",
+                    "Probability of bankruptcy or financial reorganisation.",
+                    "Default in payments."
+                ]
+            }
+        },
+        "k_Cash_and_Cash_Equivalents": {
+            "description": "Comprise cash in hand, deposits held at call with banks, and financial assets with maturities of less than 3 months.",
+            "balance_sheet": "Bank overdrafts are included within borrowings in current liabilities."
+        },
+        "l_Trade_Payables": {
+            "description": "Recognised initially at fair value and subsequently measured at amortised cost."
+        },
+        "m_Taxation": {
+            "current_tax": "Provided on results for the year adjusted in accordance with tax legislation.",
+            "deferred_tax": "Provided using the liability method for temporary timing differences."
+        },
+        "n_Borrowings": {
+            "description": "Initially recognised at fair value, net of transaction costs, and stated at amortised cost.",
+            "classification": "Current liabilities unless the partnership has the right to defer settlement for at least 12 months."
+        },
+        "o_Capital": {
+            "description": "Partners injections are classified as capital employed."
+        }
+    },
+    "Notes_to_the_Financial_Statements": {
+        "Revenue": {
+            "Assurance": {
+                "2022": 37363979,
+                "2021": 7205790
+            },
+            "Consultancy": {
+                "2022": 8919219,
+                "2021": 5267500
+            },
+            "Training_and_other_income": {
+                "2022": 5230000,
+                "2021": 1340204
+            },
+            "Total_Revenue": {
+                "2022": 51513198,
+                "2021": 13813494
+            }
+        },
+        "Operating_Profit": {
+            "Depreciation_of_equipment": {
+                "2022": 142639,
+                "2021": 241465
+            },
+            "Auditor_remuneration_current_year": {
+                "2022": 40000,
+                "2021": 40000
+            }
+        },
+        "Staff_Costs": {
+            "Salaries_and_wages": {
+                "2022": null,
+                "2021": null
+            }
+        },
+        "Tax": {
+            "Profit_before_tax": {
+                "2022": 12054644,
+                "2021": 3168441
+            },
+            "Tax_charge": {
+                "2022": null,
+                "2021": null
+            }
+        },
+        "Partners_Capital": {
+            "At_start_of_year": {
+                "2022": 600000,
+                "2021": 1233038
+            },
+            "Felix_Wamai_Kariuki": {
+                "2022": null,
+                "2021": -224063
+            },
+            "Nicholas_Kathiari": {
+                "2022": null,
+                "2021": -216598
+            },
+            "Patrick_Kwagara_Mwirigi": {
+                "2022": null,
+                "2021": -192377
+            },
+            "At_end_of_year": {
+                "2022": 600000,
+                "2021": 600000
+            }
+        },
+        "Partners_Current_Account": {
+            "Opening_Balance": {
+                "2022": 2006857,
+                "2021": 87458
+            },
+            "Drawings": {
+                "2022": -7935560,
+                "2021": -1249042
+            },
+            "Share_of_profits": {
+                "2022": 12054644,
+                "2021": 3168441
+            },
+            "Total_Current_Account": {
+                "2022": 6125941,
+                "2021": 2006857
+            }
+        },
+        "Equipment": {
+            "Cost_Furniture_Fittings": {
+                "2022": 121411,
+                "2021": 121411
+            },
+            "Cost_Equipment": {
+                "2022": 547790,
+                "2021": 547790
+            },
+            "Cost_Computers": {
+                "2022": 211000,
+                "2021": 211000
+            },
+            "Total_Cost": {
+                "2022": 880201,
+                "2021": 880201
+            },
+            "Additions_Equipment": {
+                "2022": null,
+                "2021": 75000
+            },
+            "Additions_Computers": {
+                "2022": null,
+                "2021": 563000
+            },
+            "Total_Additions": {
+                "2022": 638000,
+                "2021": null
+            },
+            "Depreciation_Equipment": {
+                "Start_of_year_Furniture_Fittings": {
+                    "2022": 26627,
+                    "2021": null
+                },
+                "Start_of_year_Equipment": {
+                    "2022": 85972,
+                    "2021": null
+                },
+                "Start_of_year_Computers": {
+                    "2022": 45583,
+                    "2021": null
+                },
+                "Total_Depreciation_Start_of_Year": {
+                    "2022": 158182,
+                    "2021": null
+                },
+                "Charge_Furniture_Fittings": {
+                    "2022": 30353,
+                    "2021": null
+                },
+                "Charge_Equipment": {
+                    "2022": 68474,
+                    "2021": null
+                },
+                "Charge_Computers": {
+                    "2022": 142639,
+                    "2021": null
+                },
+                "Total_Depreciation_Charge": {
+                    "2022": 241465,
+                    "2021": null
+                }
+            },
+            "Net_Book_Value_31_December": {
+                "Furniture": {
+                    "2022": 64432,
+                    "2021": 94785
+                },
+                "Equipment": {
+                    "2022": 468344,
+                    "2021": 461817
+                },
+                "Computers": {
+                    "2022": 585778,
+                    "2021": 165417
+                },
+                "Total_Net_Book_Value_31_December": {
+                    "2022": 1118554,
+                    "2021": 722019
+                }
+            }
+        },
+        "Intangible_Assets": {
+            "Cost_at_start_of_year_Software": {
+                "2022": 15300,
+                "2021": 15300
+            },
+            "Depreciation_start_of_year_Software": {
+                "2022": 4675,
+                "2021": null
+            },
+            "Depreciation_charge_for_the_year_Software": {
+                "2022": 5100,
+                "2021": null
+            },
+            "Net_Book_Value_31_December_Software": {
+                "2022": 5525,
+                "2021": 10625
+            }
+        },
+        "Trade_and_Other_Receivables": {
+            "Trade_receivables": {
+                "2022": 10352860,
+                "2021": 1134101
+            },
+            "Deposits": {
+                "2022": 139550,
+                "2021": 129550
+            },
+            "Other_receivables": {
+                "2022": 1675567,
+                "2021": 336662
+            },
+            "Total_Receivables": {
+                "2022": 12167977,
+                "2021": 1600313
+            }
+        },
+        "Cash_and_Cash_Equivalents": {
+            "NCBA_Bank": {
+                "2022": 3943332,
+                "2021": 1589465
+            },
+            "Cash_in_hand": {
+                "2022": 4471,
+                "2021": -603
+            },
+            "Total_Cash_and_Equivalents": {
+                "2022": 3947803,
+                "2021": 1588862
+            }
+        },
+        "Trade_and_Other_Payables": {
+            "Trade_payables": {
+                "2022": 91246,
+                "2021": 91920
+            },
+            "Other_payables": {
+                "2022": 4817618,
+                "2021": 457364
+            },
+            "Accruals": {
+                "2022": 5605054,
+                "2021": 765678
+            },
+            "Total_Payables": {
+                "2022": 10513917,
+                "2021": 1314961
+            }
+        },
+        "Cash_Generated_from_used_in_Operations": {
+            "Profit_before_tax": {
+                "2022": 12054644,
+                "2021": 3168441
+            },
+            "Depreciation_on_equipment": {
+                "2022": 241465,
+                "2021": 139337
+            },
+            "Software_amortization": {
+                "2022": 5100,
+                "2021": 4675
+            },
+            "Adjustments_Changes_in_trade_and_other_receivables": {
+                "2022": -10567664,
+                "2021": -852811
+            },
+            "Adjustments_Changes_in_trade_and_other_payables": {
+                "2022": 9198955,
+                "2021": 906090
+            },
+            "Total_Cash_Generated_from_Operations": {
+                "2022": 10932501,
+                "2021": 3365731
+            }
+        },
+        "Financial_Risk_Management": {
+            "Credit_Risk": {
+                "Description": "Credit risk arises from cash and cash equivalents, as well as credit exposures to customers, including outstanding receivables.",
+                "Management_Assessment": "Management assesses the credit quality of the customer, taking into account their position, past experience and other factors."
+            },
+            "Liquidity_Risk": {
+                "Description": "Prudent liquidity risk management implies maintaining sufficient cash and cash equivalents to meet obligations as they fall due."
+            }
+        },
+        "Capital_Management": {
+            "Objectives": [
+                "To provide an adequate return to partnership by pricing products and services commensurately with the level of risk.",
+                "To safeguard the entity's ability to continue as a going concern.",
+                "To maintain a strong asset base to support the development of business."
+            ]
+        },
+        "Events_after_the_balance_sheet_date": "There are no material events after the balance sheet date which require to be disclosed.",
+        "Deferred_tax": "No provision has been made for deferred tax as there are no material temporary timing differences.",
+        "Provision_for_employee_entitlements": "No provision has been made for employee entitlements as the amounts involved are not material.",
+        "Country_of_incorporation": "The partnership is registered in Kenya under Registrar of Business Names Act and is domiciled in Kenya.",
+        "Presentation_currency": "These financial statements are presented in Kenya Shillings (Shs)."
+    },
+    "Other_Operating_Income_and_Expenditure": {
+        "Administration_Expenses": {
+            "Salaries_and_Wages": {
+                "2022": 2949942,
+                "2021": 263161
+            },
+            "Staff_Welfare": {
+                "2022": 324000,
+                "2021": 800000
+            },
+            "Staff_Training": {
+                "2022": 958178,
+                "2021": "null"
+            },
+            "Total_Administration_Expenses": {
+                "2022": 4232120,
+                "2021": 1063161
+            },
+            "Other_Administration_Expenses": {
+                "Consultancy_Charges": {
+                    "2022": 24122178,
+                    "2021": 5831988
+                },
+                "Audit_Fees": {
+                    "2022": 80000,
+                    "2021": 40000
+                },
+                "Telephone_Communication_and_Postage": {
+                    "2022": 1336516,
+                    "2021": 118035
+                },
+                "Electricity": {
+                    "2022": 12986,
+                    "2021": 20070
+                },
+                "Advertising_and_Marketing": {
+                    "2022": 1646000,
+                    "2021": 20362
+                },
+                "Internet_Expenses": {
+                    "2022": 174673,
+                    "2021": 146781
+                },
+                "Travel_and_Accommodation": {
+                    "2022": 3933357,
+                    "2021": 1918582
+                },
+                "Printing_and_Stationeries": {
+                    "2022": 1160820,
+                    "2021": 50484
+                },
+                "Subscriptions": {
+                    "2022": 36146,
+                    "2021": 101880
+                },
+                "Tender_Fees": {
+                    "2022": 59027,
+                    "2021": 33768
+                },
+                "Miscellaneous_Expenses": {
+                    "2022": 414091,
+                    "2021": 44926
+                },
+                "Rent_and_Rates": {
+                    "2022": 817330,
+                    "2021": 782978
+                },
+                "Total_Other_Administration_Expenses": {
+                    "2022": 33793123,
+                    "2021": 9109853
+                }
+            },
+            "Total_Administration_Expenses_Overall": {
+                "2022": 38025243,
+                "2021": 10173014
+            }
+        },
+        "Operating_Expenses": {
+            "Depreciation": {
+                "2022": 241465,
+                "2021": 139337
+            },
+            "Software_Amortization": {
+                "2022": 5100,
+                "2021": 4675
+            },
+            "Insurance_Licenses_and_Subscriptions": {
+                "2022": 369370,
+                "2021": 264943
+            },
+            "Repairs_and_Maintenance": {
+                "2022": 640350,
+                "2021": 15000
+            },
+            "Total_Operating_Expenses": {
+                "2022": 1256285,
+                "2021": 423955
+            },
+            "Finance_Costs": {
+                "Bank_Charges": {
+                    "2022": 166350,
+                    "2021": 23028
+                },
+                "Realised_Exchange_Loss_Gain": {
+                    "2022": 10675,
+                    "2021": 69345
+                },
+                "Unrealised_Exchange_Loss_Gain": {
+                    "2022": 177026,
+                    "2021": -44290
+                },
+                "Total_Finance_Costs": {
+                    "2022": 177026,
+                    "2021": 48084
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,464 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: request_insurance
+  examples: |
+    - I would like to request insurance
+    - Can you help me with insurance?
+    - I need insurance for my business
+    - How can I request insurance?
+    - I'd like to get an insurance quote
+    - Can you provide me with insurance details?
+    - I want to inquire about insurance
+    - Please help me with an insurance policy
+    - I’m looking to request insurance coverage
+    - How do I request an insurance policy?
+
+
+- intent: ask_business_profession
+  examples: |
+    - [Auditors](business_profession)
+    - [Accountants](business_profession)
+    - [Tax-Advisors](business_profession)
+    - [Actuaries](business_profession)
+    - [Advocates](business_profession)
+    - [Attorneys](business_profession)
+    - [Estate Agents](business_profession)
+    - [Valuers](business_profession)
+    - [Property Consultants](business_profession)
+    - [Architects](business_profession)
+    - [Civil Engineer](business_profession)
+    - [Construction Engineers](business_profession)
+    - [Quantity Surveyors](business_profession)
+    - [Land Surveyors](business_profession)
+    - [Optician](business_profession)
+    - [Chemist](business_profession)
+    - [Doctor](business_profession)
+    - [Dentist](business_profession)
+    - [Surgeons](business_profession)
+    - [Veterinary Surgeons](business_profession)
+    - [Hospitals](business_profession)
+    - [Directors and Officers Liability](business_profession)
+    - [Insurance Brokers](business_profession)
+    - [Reinsurance Brokers](business_profession)
+    - [Investment Advisors](business_profession)
+    - [Computer Bureaus](business_profession)
+    - [Consultants](business_profession)
+    - [Advertising Agents](business_profession)
+    - [Shipping and Forwarding Custom Agents](business_profession)
+    - [Foreign activities of Multi-National Accountants](business_profession)
+    - [Project Managers](business_profession)
+    - [Contractor](business_profession)
+    - [Plastic Surgery and Blood Banks](business_profession)
+    - [F & O in respect of Hospital Administrators](business_profession)
+    - [Medical and Biological Research Facilities](business_profession)
+    - [Genetic damage connected with X-ray and other radiation equipment](business_profession)
+
+
+- intent: ask_name_reinsured
+  examples: |
+    - [XYZ Insurance](name_reinsured)
+    - [ABC Reinsurance Group](name_reinsured)
+    - [Global Risk Management Ltd](name_reinsured)
+    - [Secure Life Reinsurance](name_reinsured)
+    - [Nationwide Insurance Corporation](name_reinsured)
+    - [Atlas Insurance Company](name_reinsured)
+    - [Prime Insure Ltd](name_reinsured)
+    - [XYZ](name_reinsured)
+    - [Atlas Insure](name_reinsured)
+    - [Secure Life](name_reinsured)
+    - [Nationwide](name_reinsured)
+    - [Prime Ltd](name_reinsured)
+    - [ABC Group](name_reinsured)
+    - [Secure Life Reinsurence](name_reinsured)
+    - [Globl Risk Management](name_reinsured)
+    - [Atlas Insur](name_reinsured)
+    - [XYZ Insurance PLC](name_reinsured)
+    - [Prime Insure LLC](name_reinsured)
+    - [Global Risk Management Inc](name_reinsured)
+    - [Nationwide Insurance Limited](name_reinsured)
+    - [ABC Group Ltd](name_reinsured)
+    - It's called [Secure Life Reinsurance](name_reinsured)
+    - The company is [Prime Insure Ltd](name_reinsured)
+    - My reinsured is [Nationwide](name_reinsured)
+    - We are working with [Atlas Insurance Company](name_reinsured)
+    - I'm not sure, maybe [XYZ](name_reinsured)
+    - I think it's [Secure Life](name_reinsured)
+    - Can I get back on that?
+    - I think the name is [Global Risk](name_reinsured)
+
+- intent: ask_name_broker
+  examples: |
+    - [John Doe Brokerage](name_broker)
+    - [Alpha Insurance Brokers](name_broker)
+    - [Secure Future Insurance Services](name_broker)
+    - [Prime Brokers Ltd](name_broker)
+    - [Reliable Risk Solutions](name_broker)
+    - [Global Insurance Brokerage Inc](name_broker)
+    - [Nationwide Brokers Group](name_broker)
+    - [Trusted Hands Brokers](name_broker)
+    - [First Choice Insurance Agency](name_broker)
+    - [The Insurance Professionals](name_broker)
+    - [Acme Brokerage](name_broker)
+    - [John's Insurance Solutions](name_broker)
+    - [Omega Brokerage Services](name_broker)
+    - [Premium Coverage Ltd](name_broker)
+    - [Atlantic Brokers](name_broker)
+    - [Horizon Insurance Consultants](name_broker)
+    - [Superior Brokerage Group](name_broker)
+    - [Prime Shield Brokers](name_broker)
+    - [Reliable Insurance Brokers](name_broker)
+    - [Risk Management Brokers](name_broker)
+    - [Safe Hands Insurance](name_broker)
+    - [Coastal Insurance Group](name_broker)
+    - [Metro Insurance Brokers](name_broker)
+    - [One Stop Insurance Brokers](name_broker)
+    - [Nationwide Risk Advisors](name_broker)
+    - [Dependable Coverage Brokers](name_broker)
+    - [Shield Partners Insurance](name_broker)
+    - [Guardian Insurance Brokers](name_broker)
+    - [Secure Coverage Associates](name_broker)
+    - [Fidelity Brokers Ltd](name_broker)
+    - My broker is [Alpha Insurance](name_broker)
+    - I work with [Reliable Risk Solutions](name_broker)
+    - My brokerage is called [Metro Insurance Brokers](name_broker)
+    - Our broker is [First Choice Insurance Agency](name_broker)
+    - We’re using [Trusted Hands Brokers](name_broker)
+    - I think the name is [Superior Brokerage](name_broker)
+    - It might be [Reliable Insurance](name_broker)
+    - I’m not sure, maybe [John Doe Brokerage](name_broker)
+    - Let me get back on that, but probably [Atlantic Brokers](name_broker)
+    - I think it's [Prime Brokers](name_broker)
+    - I believe it’s called [Fidelity Brokers Ltd](name_broker)
+    - Possibly [Shield Partners Insurance](name_broker)
+
+- intent: ask_name_insured
+  examples: |
+    - [ABC Corporation](name_insured)
+    - [XYZ Ltd](name_insured)
+    - [Global Tech Inc](name_insured)
+    - [Prime Solutions](name_insured)
+    - [Secure Future Holdings](name_insured)
+    - [Alpha Real Estate](name_insured)
+    - [Best Foods Corp](name_insured)
+    - [Green Energy Solutions](name_insured)
+    - [Sunshine Industries](name_insured)
+    - [FinTech Innovations Ltd](name_insured)
+    - [Healthy Life Group](name_insured)
+    - [SecureBuild Construction](name_insured)
+    - [ClearView Marketing](name_insured)
+    - [Ace Manufacturing Inc](name_insured)
+    - [Dynamic Solutions](name_insured)
+    - [Trusted Financials LLC](name_insured)
+    - [One World Logistics](name_insured)
+    - [Oceanic Marine Services](name_insured)
+    - [SkyTech Aerospace](name_insured)
+    - [Integrated Health Systems](name_insured)
+    - [Prime Innovations Corp](name_insured)
+    - [Reliable Automotive](name_insured)
+    - [HighTech Robotics](name_insured)
+    - [NextGen Technology Partners](name_insured)
+    - [Frontier Solutions](name_insured)
+    - [Mountain Ridge Mining](name_insured)
+    - [ProActive Financial Group](name_insured)
+    - [Reliable Life Insurance](name_insured)
+    - [Global Education Partners](name_insured)
+    - [InnoWave Digital](name_insured)
+    - [SafeGuard Security Systems](name_insured)
+    - [Urban Development Corp](name_insured)
+    - [Acme Co](name_insured)
+    - [Pacific Food Services](name_insured)
+    - [National Healthcare Services](name_insured)
+    - [Purely Organic Farms](name_insured)
+    - [Everest Industrial Supply](name_insured)
+    - [Innovative Chemicals](name_insured)
+    - [Beacon Pharmaceuticals](name_insured)
+    - [Summit Energy Solutions](name_insured)
+    - My insured company is [ABC Corp](name_insured)
+    - The name is [Reliable Automotive](name_insured)
+    - We’re insured under [XYZ Ltd](name_insured)
+    - Our company is [Prime Innovations Corp](name_insured)
+    - It’s [Dynamic Solutions Inc](name_insured)
+    - I think it’s called [SecureBuild Construction](name_insured)
+    - The business name is [SafeGuard Security Systems](name_insured)
+    - I believe it’s [Green Energy Solutions](name_insured)
+    - Might be [Oceanic Marine Services](name_insured)
+    - I’m with [ABC Corporation](name_insured)
+    - The insured name is [Global Education Partners](name_insured)
+
+- intent: ask_number_partners_principal
+  examples: |
+    - [3](number_partners_principal) partners
+    - [5](number_partners_principal) principal partners
+    - There are [2](number_partners_principal) principal partners
+    - We have [4](number_partners_principal) principal partners
+    - It's just [1](number_partners_principal) partner
+    - [6](number_partners_principal) partners in total
+    - Our company has [7](number_partners_principal) main partners
+    - [8](number_partners_principal) principal partners
+    - We have [10](number_partners_principal) principal partners
+    - I think there are [3](number_partners_principal)
+    - [2](number_partners_principal) partners
+    - [5](number_partners_principal) partners at the helm
+    - Our business has [4](number_partners_principal) main partners
+    - The number is [6](number_partners_principal)
+    - [3](number_partners_principal) main partners
+    - [7](number_partners_principal) principal partners
+    - We have [5](number_partners_principal) partners
+    - There are [9](number_partners_principal) partners in the company
+    - We currently have [2](number_partners_principal) principal partners
+    - It's [1](number_partners_principal) principal partner
+    - The business has [8](number_partners_principal) principal partners
+    - There are [10](number_partners_principal) principal partners
+    - My company has [4](number_partners_principal) partners
+    - I believe there are [5](number_partners_principal) partners
+    - We’re running with [3](number_partners_principal) principal partners
+    - [4](number_partners_principal) main partners at the business
+    - The business has [3](number_partners_principal) key partners
+    - [2](number_partners_principal) main partners
+    - [3](number_partners_principal) co-founders as principal partners
+    - We have [6](number_partners_principal) business partners
+    - [1](number_partners_principal) partner, that's it
+    - [3](number_partners_principal) partners in the principal team
+    - There are [7](number_partners_principal) key partners
+    - [2](number_partners_principal) principal partners in the company
+
+
+- intent: ask_number_qualified_assistants
+  examples: |
+    - [5](number_qualified_assistants) qualified assistants
+    - [8](number_qualified_assistants) qualified assistants
+    - [3](number_qualified_assistants) qualified assistants
+    - [10](number_qualified_assistants) assistants with qualifications
+    - [6](number_qualified_assistants) qualified assistants
+    - [4](number_qualified_assistants)
+    - [7](number_qualified_assistants) qualified assistants in the team
+    - [2](number_qualified_assistants) qualified assistants
+    - [9](number_qualified_assistants) assistants with qualifications
+    - [3](number_qualified_assistants) qualified assistants are available
+    - Our company employs [5](number_qualified_assistants) qualified assistants
+    - [4](number_qualified_assistants) qualified assistants
+    - [6](number_qualified_assistants) qualified assistants
+    - [8](number_qualified_assistants) qualified assistants in total
+    - [2](number_qualified_assistants) assistants with qualifications
+    - [7](number_qualified_assistants) qualified assistants in the office
+    - [1](number_qualified_assistants) qualified assistant
+    - [10](number_qualified_assistants) assistants with proper qualifications
+    - [6](number_qualified_assistants) people with qualifications assisting
+    - [5](number_qualified_assistants) qualified assistants
+    - [4](number_qualified_assistants) assistants with the required qualifications
+    - [12](number_qualified_assistants) qualified assistants
+    - [3](number_qualified_assistants) qualified staff members
+    - [8](number_qualified_assistants) qualified assistants working with us
+    - [11](number_qualified_assistants) qualified assistants
+    - [9](number_qualified_assistants) qualified assistants
+    - [7](number_qualified_assistants)
+    - [3](number_qualified_assistants) qualified assistants on the team
+    - [6](number_qualified_assistants) assistants with qualifications
+    - [4](number_qualified_assistants) qualified assistants here
+    - [5](number_qualified_assistants) assistants with qualifications
+
+
+
+- intent: ask_number_unqualified_assistants
+  examples: |
+    - [4](number_unqualified_assistants) unqualified assistants
+    - We have [6](number_unqualified_assistants) unqualified assistants
+    - There are [2](number_unqualified_assistants) unqualified assistants
+    - [5](number_unqualified_assistants) assistants without qualifications
+    - I have [3](number_unqualified_assistants) unqualified assistants
+    - The number is [7](number_unqualified_assistants)
+    - [8](number_unqualified_assistants) unqualified assistants in the team
+    - We currently employ [1](number_unqualified_assistants) unqualified assistant
+    - [9](number_unqualified_assistants) assistants without qualifications
+    - [3](number_unqualified_assistants) unqualified assistants working here
+    - Our company employs [4](number_unqualified_assistants) unqualified assistants
+    - We have [6](number_unqualified_assistants) unqualified assistants
+    - There are [10](number_unqualified_assistants) unqualified assistants
+    - [12](number_unqualified_assistants) unqualified assistants in total
+    - [7](number_unqualified_assistants) assistants without qualifications
+    - I think we have [5](number_unqualified_assistants) unqualified assistants
+    - [2](number_unqualified_assistants) assistants without the required qualifications
+    - [11](number_unqualified_assistants) unqualified assistants
+    - [9](number_unqualified_assistants) unqualified assistants
+    - We currently have [8](number_unqualified_assistants)
+    - [4](number_unqualified_assistants) unqualified assistants on the team
+    - [6](number_unqualified_assistants) assistants without qualifications
+    - There are [3](number_unqualified_assistants) unqualified assistants here
+    - We employ [5](number_unqualified_assistants) unqualified assistants
+    - [3](number_unqualified_assistants) unqualified assistants in total
+    - [1](number_unqualified_assistants) assistant with no qualifications
+    - [10](number_unqualified_assistants) unqualified assistants working with us
+    - We have [7](number_unqualified_assistants) unqualified assistants
+    - [5](number_unqualified_assistants) unqualified assistants in the office
+    - [8](number_unqualified_assistants) assistants without qualifications
+    - [3](number_unqualified_assistants) unqualified staff members
+
+
+- intent: ask_number_other_staff
+  examples: |
+    - [10](number_other_staff) other staff members
+    - We have [15](number_other_staff) other staff
+    - There are [8](number_other_staff) staff members
+    - [20](number_other_staff) other employees
+    - [12](number_other_staff) additional staff
+    - I have [25](number_other_staff) other staff members
+    - We employ [30](number_other_staff) staff in total
+    - [5](number_other_staff) other team members
+    - [18](number_other_staff) other staff members working here
+    - [22](number_other_staff) other staff in the office
+    - Our company has [10](number_other_staff) additional staff
+    - [6](number_other_staff) other employees
+    - [7](number_other_staff) other staff members working with us
+    - We currently have [11](number_other_staff) staff
+    - [13](number_other_staff) other employees on the team
+    - [9](number_other_staff) other staff members in total
+    - There are [14](number_other_staff) other employees
+    - [17](number_other_staff) additional staff members
+    - We employ [16](number_other_staff) other staff
+    - [21](number_other_staff) other employees
+    - [8](number_other_staff) other team members working here
+    - [23](number_other_staff) other staff members
+    - [19](number_other_staff) other employees
+    - We have [27](number_other_staff) other staff members
+    - [4](number_other_staff) other staff members
+    - [26](number_other_staff) other employees
+    - There are [10](number_other_staff) additional staff members
+    - [2](number_other_staff) other staff members
+    - [24](number_other_staff) other team members
+    - [3](number_other_staff) other staff members working here
+
+
+- intent: ask_indemnity_amount
+  examples: |
+    - [1000000](indemnity_amount)
+    - The indemnity amount is [500000](indemnity_amount)
+    - It's [2000000](indemnity_amount)
+    - [1500000](indemnity_amount)
+    - We need [3000000](indemnity_amount) as the indemnity
+    - The amount is [200000](indemnity_amount)
+    - [250000](indemnity_amount) for indemnity
+    - It's set at [1200000](indemnity_amount)
+    - [500000](indemnity_amount)
+    - The indemnity amount is [3500000](indemnity_amount)
+    - I require [1800000](indemnity_amount) indemnity
+    - [3000000](indemnity_amount)
+    - [2200000](indemnity_amount)
+    - [450000](indemnity_amount)
+    - The indemnity amount is [750000](indemnity_amount)
+    - [600000](indemnity_amount)
+    - [1000000](indemnity_amount)
+    - [400000](indemnity_amount)
+    - We are looking for [2500000](indemnity_amount)
+    - [3100000](indemnity_amount)
+    - [850000](indemnity_amount)
+    - [1200000](indemnity_amount)
+    - The indemnity should be [5000000](indemnity_amount)
+    - [600000](indemnity_amount) indemnity
+    - The amount we need is [1400000](indemnity_amount)
+    - [4000000](indemnity_amount)
+    - [750000](indemnity_amount)
+    - [200000](indemnity_amount) for indemnity
+    - The indemnity amount is [100000](indemnity_amount)
+    - I want [5000000](indemnity_amount) indemnity coverage
+    - [1300000](indemnity_amount)
+    - It's [300000](indemnity_amount)
+    - [2800000](indemnity_amount)
+    - [1100000](indemnity_amount)
+    - [1600000](indemnity_amount) indemnity
+    - [900000](indemnity_amount)
+    - [1700000](indemnity_amount)
+
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - happy
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+

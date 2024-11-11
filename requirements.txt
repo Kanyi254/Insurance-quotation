@@ -1,1 +1,6 @@
-pip install flask pandas numpy scikit-learn matplotlib seaborn pytesseract PyMuPDF SQLAlchemy
+rasa==3.3.0
+rasa-sdk==3.3.0
+pandas==2.1.0
+numpy==1.24.2
+python-dotenv==1.0.0
+SQLAlchemy

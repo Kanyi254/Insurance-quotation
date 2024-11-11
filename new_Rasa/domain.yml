@@ -1,0 +1,158 @@
+version: "3.1"
+
+intents:
+  - greet
+  - mood_great
+  - mood_unhappy
+  - request_insurance  
+  - ask_business_profession
+  - ask_name_reinsured
+  - ask_name_broker
+  - ask_name_insured
+  - ask_number_partners_principal
+  - ask_number_qualified_assistants
+  - ask_number_unqualified_assistants
+  - ask_number_other_staff
+  - ask_indemnity_amount 
+  - goodbye
+  - bot_challenge  
+  - deny
+  - affirm
+  
+
+
+entities:
+  - business_profession
+  - name_reinsured
+  - name_broker
+  - name_insured
+  - number_partners_principal
+  - number_qualified_assistants
+  - number_unqualified_assistants
+  - number_other_staff
+  - indemnity_amount
+
+
+slots:
+  business_profession:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: business_profession
+  name_reinsured:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: name_reinsured
+  name_broker:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: name_broker
+  name_insured:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: name_insured
+  number_partners_principal:
+    type: float
+    mappings:
+      - type: from_entity
+        entity: number_partners_principal
+  number_qualified_assistants:
+    type: float
+    mappings:
+      - type: from_entity
+        entity: number_qualified_assistants
+  number_unqualified_assistants:
+    type: float
+    mappings:
+      - type: from_entity
+        entity: number_unqualified_assistants
+  number_other_staff:
+    type: float
+    mappings:
+      - type: from_entity
+        entity: number_other_staff
+  indemnity_amount:
+    type: float
+    mappings:
+      - type: from_entity
+        entity: indemnity_amount
+
+
+forms:
+  insurance_form:
+    required_slots:
+      - business_profession
+      - name_reinsured
+      - name_broker
+      - name_insured
+      - number_partners_principal
+      - number_qualified_assistants
+      - number_unqualified_assistants
+      - number_other_staff
+      - indemnity_amount
+
+responses:
+  utter_greet:
+  - text: "Hello! How can I assist you today?"
+
+  utter_cheer_up:
+  - text: "Here’s a little something to lift your spirits:"
+    image: "https://imgur.com/psbattle-quokka-eating-iNNIOPD"
+
+  utter_did_that_help:
+  - text: "Did that help? Let me know if you need more information."
+
+  utter_happy:
+  - text: "Great to hear you're doing well! Let’s keep going."
+
+  utter_ask_business_profession:
+  - text: "Could you please tell me your business profession?"
+
+  utter_ask_name_reinsured:
+  - text: "What is the name of the reinsured party?"
+
+  utter_ask_name_broker:
+  - text: "What is the name of the broker handling this?"
+
+  utter_ask_name_insured:
+  - text: "What is the name of the insured party?"
+
+  utter_ask_number_partners_principal:
+  - text: "How many partners or principals are involved in the business?"
+
+  utter_ask_number_qualified_assistants:
+  - text: "How many qualified assistants are there?"
+
+  utter_ask_number_unqualified_assistants:
+  - text: "How many unqualified assistants are there?"
+
+  utter_ask_number_other_staff:
+  - text: "How many other staff members are there?"
+
+  utter_ask_indemnity_amount:
+  - text: "What is the indemnity amount you would like to claim?"
+
+  utter_confirm_form:
+  - text: "Thank you for filling out the form! Please wait as I generate a quote for you."
+
+  utter_display_quote:
+  - text: "Here is your quote."
+
+  utter_goodbye:
+  - text: "Goodbye! Have a wonderful day!"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa, here to help you with your insurance queries."
+
+
+
+actions:
+  - action_generate_quote
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
