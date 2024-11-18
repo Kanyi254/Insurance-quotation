@@ -23,6 +23,7 @@ rules:
     - action: utter_confirm_form
     - action: utter_display_quote
     - action: action_generate_quote
+    - action: utter_ask_anything_else
 
 - rule: Say goodbye anytime the user says goodbye
   steps:

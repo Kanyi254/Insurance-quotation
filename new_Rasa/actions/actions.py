@@ -63,29 +63,29 @@ class ActionGenerateQuote(Action):
         if indemnity_amount < 1000000:
             limit_of_indemnity = indemnity_amount
         elif 1000001 <= indemnity_amount <= 2500000:
-            limit_of_indemnity = indemnity_amount * 1.5
+            limit_of_indemnity = indemnity_amount * 0.035
         elif 2500001 <= indemnity_amount <= 5000000:
-            limit_of_indemnity = indemnity_amount * 1.9
+            limit_of_indemnity = indemnity_amount * 0.039
         elif 5000001 <= indemnity_amount <= 10000000:
-            limit_of_indemnity = indemnity_amount * 2.3
+            limit_of_indemnity = indemnity_amount * 0.043
         elif 10000001 <= indemnity_amount <= 20000000:
-            limit_of_indemnity = indemnity_amount * 2.75
+            limit_of_indemnity = indemnity_amount * 0.0475
         elif 20000001 <= indemnity_amount <= 40000000:
-            limit_of_indemnity = indemnity_amount * 3.25
+            limit_of_indemnity = indemnity_amount * 0.0525
         elif 40000001 <= indemnity_amount <= 60000000:
-            limit_of_indemnity = indemnity_amount * 3.65
+            limit_of_indemnity = indemnity_amount * 0.0565
         else:
-            limit_of_indemnity = indemnity_amount * 4.5
+            limit_of_indemnity = indemnity_amount * 0.065
 
         # Calculate B
         B = limit_of_indemnity
 
         # Calculate Profession Fee
-        if business_profession in ["estate agents", "valuers", "property consultants", "accountant", "attorney", "auditor", "optician", "chemist", "tax-advisors", "actuaries"]:
+        if business_profession in ["Estate Agents", "Valuers", "Property Consultants", "Accountant", "Attorney", "Auditor", "Optician", "Chemist", "Tax-Advisors", "Actuaries"]:
             profession_fee = B
-        elif business_profession in ["architect", "civil engineer", "construction engineer", "quantity surveyors", "land surveyors"]:
+        elif business_profession in ["Architect", "Civil Engineer", "Construction Engineer", "Quantity Surveyors", "Land Surveyors"]:
             profession_fee = B * 1.35
-        else:  # for optician, chemist, surgeon, veterinary surgeon, doctor, dentist, hospital
+        else: # business_profession in ["Optician", "Chemist", "Surgeon", "Veterinary Surgeon", "Doctor", "Dentist", "Hospital"] 
             profession_fee = B * 1.75
 
         # Calculate C
@@ -121,7 +121,7 @@ class ActionGenerateQuote(Action):
         # Generate PDF quote 
         pdf_content = f"Reinsured Company: {tracker.get_slot('name_reinsured')}\n"
         pdf_content += f"Broker: {tracker.get_slot('name_broker')}\n"
-        pdf_content += f"Reinsured: {tracker.get_slot('name_insured')}:\n"
+        pdf_content += f"Insured: {tracker.get_slot('name_insured')}:\n"
         pdf_content += f"Total Premium Payable: {total_premium}"
 
         # Send the quote as a message

@@ -103,7 +103,7 @@ responses:
     image: "https://imgur.com/psbattle-quokka-eating-iNNIOPD"
 
   utter_did_that_help:
-  - text: "Did that help? Let me know if you need more information."
+  - text: "Did that help?"
 
   utter_happy:
   - text: "Great to hear you're doing well! Let’s keep going."
@@ -140,6 +140,12 @@ responses:
 
   utter_display_quote:
   - text: "Here is your quote."
+
+  utter_ask_anything_else:
+  - text: "Is there anything else I can help you with?"
+
+  utter_i_am_sorry:
+  - text: "I'm sorry to hear that. Is there anything else I can help you with?"
 
   utter_goodbye:
   - text: "Goodbye! Have a wonderful day!"
