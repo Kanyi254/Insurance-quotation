@@ -1,4 +1,4 @@
-# **Automation of Facultative Underwriting Process**
+# **Insurance Quotation Automation Using Rasa Chatbot**
 ![Alt text](./images/pic2.webp)
 
 
@@ -34,7 +34,7 @@
 The project automates the facultative underwriting process for Professional Indemnity Insurance (PII) quotation requests, which includes analyzing proposal forms and other relevant documents submitted by clients. Facultative reinsurance allows insurance companies to transfer some of their liabilities to other insurers, thus managing risk effectively. This process, however, traditionally involves manual analysis, which is time-consuming and prone to errors. This project aims to automate the analysis and processing of these requests to speed up the quotation generation and improve operational efficiency.
 
 ### **Goal**
-The goal of the project is to develop an AI-powered system that automates the underwriting process for facultative insurance quotations. This includes extracting relevant data from documents submitted by clients, validating the information, and generating a professional indemnity insurance quote.
+The goal of the project is to develop a chatbot that automates the underwriting process for facultative insurance quotations. This includes extracting relevant data from documents submitted by clients, validating the information, and generating a professional indemnity insurance quote.
 
 ### **Objectives**
 1. Automate the extraction of relevant information from the proposal forms and associated documents.
